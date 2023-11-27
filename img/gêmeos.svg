@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="gêmeos" transform="translate(0.166)">
+    <g id="Boundary" transform="translate(-0.166)" fill="#211a16" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <path id="Path_zodiac-gemini" data-name="Path / zodiac-gemini" d="M18.242,5.248a26.956,26.956,0,0,0,4-1.279L21.47,2.14a24.785,24.785,0,0,1-9.319,1.829,24.949,24.949,0,0,1-9.319-1.8l-.772,1.8a26.956,26.956,0,0,0,4,1.279V18.427a26.956,26.956,0,0,0-4,1.279l.772,1.829a25.026,25.026,0,0,1,18.638,0l.772-1.829a26.956,26.956,0,0,0-4-1.279V5.248M8.09,18.034V5.632a28,28,0,0,0,4.061.3,28,28,0,0,0,4.061-.3V18.044a27.411,27.411,0,0,0-8.121,0Z" transform="translate(-0.08 0.134)" fill="#211a16"/>
+  </g>
+</svg>

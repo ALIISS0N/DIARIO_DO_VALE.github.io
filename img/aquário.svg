@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="aquário" transform="translate(0.166)">
+    <g id="Boundary" transform="translate(-0.166)" fill="#211a16" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <path id="Path_zodiac-aquarius" data-name="Path / zodiac-aquarius" d="M15.2,12.314,12.154,9.364,9.107,12.314,6.059,9.364,3.733,11.626l-1.443-1.4L6.059,6.59,9.107,9.541,12.154,6.59,15.2,9.541,18.25,6.59l3.769,3.639-1.443,1.4L18.25,9.364,15.2,12.314m3.048,2.951,2.326,2.262,1.443-1.4L18.25,12.491,15.2,15.442l-3.048-2.951L9.107,15.442,6.059,12.491,2.29,16.13l1.443,1.4,2.326-2.262,3.048,2.951,3.048-2.951L15.2,18.215Z" transform="translate(-0.305 -0.709)" fill="#211a16"/>
+  </g>
+</svg>

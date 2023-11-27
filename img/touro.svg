@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="touro" transform="translate(-0.103)">
+    <g id="Boundary" transform="translate(0.103)" fill="#211a16" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <path id="Path_zodiac-taurus" data-name="Path / zodiac-taurus" d="M15.891,8.9A6.826,6.826,0,0,0,19.4,3H17.341A5.034,5.034,0,0,1,12.2,7.918,5.034,5.034,0,0,1,7.057,3H5A6.826,6.826,0,0,0,8.507,8.9a6.7,6.7,0,0,0-2.479,9.442,7.349,7.349,0,0,0,9.863,2.36,6.674,6.674,0,0,0,2.479-9.422A6.943,6.943,0,0,0,15.891,8.9M12.2,19.72A5.034,5.034,0,0,1,7.057,14.8,5.034,5.034,0,0,1,12.2,9.885,5.034,5.034,0,0,1,17.341,14.8,5.034,5.034,0,0,1,12.2,19.72Z" transform="translate(-0.06 -0.726)" fill="#211a16"/>
+  </g>
+</svg>

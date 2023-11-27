@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="aries" transform="translate(0)">
+    <g id="Boundary" transform="translate(0)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <path id="Path_zodiac-aries" data-name="Path / zodiac-aries" d="M15.769,2a5.778,5.778,0,0,0-2.951.8,4.67,4.67,0,0,0-.984.718,4.67,4.67,0,0,0-.984-.718A5.778,5.778,0,0,0,7.9,2a5.9,5.9,0,0,0,0,11.8V11.835a3.934,3.934,0,1,1,2.7-6.786,3.019,3.019,0,0,1,.246.256V21.671h1.967V5.3a3.019,3.019,0,0,1,.246-.256,3.934,3.934,0,1,1,2.7,6.786V13.8a5.9,5.9,0,0,0,0-11.8Z" transform="translate(-0.106 0.274)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="peixes" transform="translate(0.435)">
+    <g id="Boundary" transform="translate(-0.435)" fill="#211a16" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <path id="Path_zodiac-pisces" data-name="Path / zodiac-pisces" d="M19.736,10.853H17.769a23.369,23.369,0,0,1,1.78-8.045l-1.78-.747A25.516,25.516,0,0,0,15.8,10.853H7.934A25.516,25.516,0,0,0,5.967,2.06l-1.829.747a23.328,23.328,0,0,1,1.829,8.045H4V12.82H5.967a23.369,23.369,0,0,1-1.78,8.045l1.78.747A25.516,25.516,0,0,0,7.934,12.82H15.8a25.516,25.516,0,0,0,1.967,8.793l1.829-.747a23.328,23.328,0,0,1-1.829-8.045h1.967Z" transform="translate(0.037 -0.113)" fill="#211a16"/>
+  </g>
+</svg>

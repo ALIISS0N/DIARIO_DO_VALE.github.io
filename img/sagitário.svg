@@ -1,0 +1,7 @@
+<svg id="sagitário" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Boundary" fill="#211a16" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+    <rect width="24" height="24" stroke="none"/>
+    <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+  </g>
+  <path id="Path_zodiac-sagittarius" data-name="Path / zodiac-sagittarius" d="M21.675,2v9.835H19.708V5.354l-9.432,9.432,2.262,2.252-1.4,1.4L8.889,16.173l-5.2,5.213-1.4-1.4,5.213-5.2L5.241,12.534l1.4-1.4L8.889,13.4l9.432-9.432H11.84V2Z" transform="translate(0.024 -0.053)" fill="#211a16"/>
+</svg>

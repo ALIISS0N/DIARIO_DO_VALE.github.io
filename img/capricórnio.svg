@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="capricórnio" transform="translate(-0.102)">
+    <g id="Boundary" transform="translate(0.102)" fill="#211a16" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <path id="Path_zodiac-capricorn" data-name="Path / zodiac-capricorn" d="M14.852,12.835a3.871,3.871,0,0,0-1.967.541V5.951A2.938,2.938,0,0,0,7.967,3.767,2.923,2.923,0,0,0,6,3V4.967a.984.984,0,0,1,.984.984v9.835H8.951V5.951a.984.984,0,1,1,1.967,0V16.769a1.967,1.967,0,0,1-1.967,1.967V20.7A3.877,3.877,0,0,0,11.9,19.346a3.932,3.932,0,1,0,2.951-6.511m0,5.9a1.967,1.967,0,1,1,1.967-1.967A1.967,1.967,0,0,1,14.852,18.736Z" transform="translate(-0.872 -0.069)" fill="#211a16"/>
+  </g>
+</svg>

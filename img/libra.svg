@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="libra" transform="translate(0.166)">
+    <g id="Boundary" transform="translate(-0.166)" fill="#211a16" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="24" height="24" stroke="none"/>
+      <rect x="0.5" y="0.5" width="23" height="23" fill="none"/>
+    </g>
+    <path id="Path_zodiac-libra" data-name="Path / zodiac-libra" d="M20.365,15.786v1.967h-7.16V15.7a5.415,5.415,0,0,0,4.511-6.3A5.6,5.6,0,0,0,11.16,5.056a5.42,5.42,0,0,0-4.511,6.3A5.516,5.516,0,0,0,11.16,15.7v2.056H4V15.786H6.987a7.181,7.181,0,0,1-2.475-5.409A7.528,7.528,0,0,1,12.183,3a7.528,7.528,0,0,1,7.671,7.376,7.181,7.181,0,0,1-2.475,5.409h2.987m0,2.951H4V20.7H20.365Z" transform="translate(-0.472 0.094)" fill="#211a16"/>
+  </g>
+</svg>
