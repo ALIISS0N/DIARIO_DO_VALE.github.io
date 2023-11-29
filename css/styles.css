@@ -171,6 +171,7 @@ p {
 .containerMain {
   width: 375px;
   margin-top: -10px;
+  margin-bottom: 32px;
 }
 .photoMain {
   border-radius: 0px 0px 10px 10px;
@@ -265,10 +266,6 @@ p {
 }
 .plusCoComentar {
   margin-right: 14px;
-}
-.plusCoCompartilhar {
-}
-.plusC3 {
 }
 
 /* BARRA FIX /BARFIX */
@@ -373,5 +370,276 @@ p {
   }
   .barFixName {
     font-weight: bold;
+  }
+}
+
+/* PROMOÇÕES */
+.openPromotions {
+  margin: 0 15px;
+}
+.promocoesTituloImage {
+  width: 345px;
+  height: 274px;
+  background-color: var(--color-4);
+  border-radius: 10px;
+  position: relative;
+}
+.promocoesTitulo {
+  display: flex;
+  align-items: center;
+  margin-left: 14px;
+}
+.proPodVid {
+  font-family: var(--figtree);
+  font-size: 2.2em;
+  font-weight: bold;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 28px;
+  margin: 0;
+  margin: 11px 0px 11px 10px;
+}
+.state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  width: 54px;
+  height: 20px;
+  background-color: var(--color-4);
+  border-radius: 10px;
+}
+.state > p {
+  font-family: var(--figtree);
+  font-size: 1.2em;
+  font-weight: bold;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 14px;
+  text-transform: lowercase;
+}
+.local {
+  display: flex;
+  font-family: var(--figtree);
+  font-size: 1.1em;
+  font-weight: 400;
+  color: var(--color-3);
+  letter-spacing: 0;
+  line-height: 13px;
+  margin-bottom: 19px;
+}
+.local > svg {
+  margin-right: 8px;
+}
+.proxProm {
+  display: flex;
+  margin: 25px auto;
+  height: 16px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+
+  .btnProx {
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--color-14);
+    border-radius: 50%;
+    margin: 25px 0px 24px 0px;
+    cursor: pointer;
+    background-color: var(--color-1);
+    margin-right: 8px;
+  }
+
+  .btnProx:hover {
+    width: 16px;
+    height: 16px;
+    background-color: var(--color-4);
+    border: none;
+  }
+}
+
+.checkOut {
+  position: relative;
+  width: 345px;
+  height: 152px;
+  background-image: linear-gradient(to right, var(--color-7), var(--color-4));
+  border-radius: 10px;
+  padding: 18px 18px;
+}
+.checkOutText {
+  display: flex;
+  justify-content: space-between;
+  .checkPromoText {
+    font-family: var(--figtree);
+    font-size: 1.8em;
+    font-weight: 600;
+    color: var(--color-2);
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+}
+.btnAccess {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-2);
+  width: 107px;
+  height: 36px;
+  border-radius: 10px;
+  background-color: transparent;
+
+  .iconSeta {
+    margin-left: 10px;
+  }
+}
+
+/* PREVISÃO */
+.previsao {
+  display: flex;
+  flex-direction: column;
+  margin: 32px 15px;
+  width: 345px;
+  height: 142px;
+  border-radius: 10px;
+  position: relative;
+  background-image: linear-gradient(
+    to right,
+    var(--color-10),
+    var(--color-11),
+    var(--color-12)
+  );
+  padding: 18px 0px 0px 18px;
+}
+
+.sun {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.previsaoTitle {
+  font-family: var(--figtree);
+  font-size: 1.4em;
+  font-weight: bold;
+  color: var(--color-1);
+  letter-spacing: 0;
+  line-height: 17px;
+  margin: 0;
+  margin-bottom: 4px;
+}
+.prevTime {
+  font-family: var(--figtree);
+  font-size: 1.2em;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-bottom: 16px;
+}
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 62px;
+
+  .timeCoPP {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 148px;
+    height: 62px;
+    .graus {
+      font-family: var(--figtree);
+      font-size: 5.2em;
+      font-weight: bold;
+      color: var(--color-1);
+      letter-spacing: 0;
+      line-height: 20px;
+    }
+    .grausMinMax {
+      font-family: var(--figtree);
+      font-size: 1.6em;
+      font-weight: 300;
+      color: rgba(255, 255, 255, 0.7);
+      letter-spacing: 0;
+      line-height: 18px;
+      text-align: left;
+      .grausMax {
+        font-family: var(--figtree);
+        font-weight: bold;
+        color: var(--color-1);
+      }
+    }
+  }
+
+  .grausCUV {
+    font-family: var(--figtree);
+    font-size: 1.2em;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: right;
+    margin-right: 18px;
+  }
+}
+
+/* SECONDARY HEADLINE */
+.secondaryHeadline {
+  margin: 0px 15px;
+  margin-bottom: 32px;
+}
+
+/* TODAY EDITION */
+.todaysEdition {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  display: flex;
+  margin: 0px 15px;
+  margin-bottom: 32px;
+  width: 345px;
+  height: 220px;
+  overflow: hidden;
+  box-shadow: 0 5px 10px var(--color-26);
+  border-radius: 10px;
+
+  .todaysEditionCoText {
+    margin-top: 60px;
+    margin-left: 20px;
+    .todayTitle {
+      margin-bottom: 8px;
+    }
+
+    .todayTime {
+      margin-bottom: 30px;
+    }
+
+    .btnSignIt {
+      position: relative;
+      border: 1px solid var(--color-4);
+      border-radius: 10px;
+      background-color: transparent;
+      width: 106px;
+      height: 36px;
+      z-index: 1;
+    }
+  }
+
+  .edcaoDigitalImg {
+    border-radius: 6px;
+  }
+
+  .blur {
+    position: absolute;
+    bottom: 0;
+    width: 345px;
+    height: 180px;
+    background-image: linear-gradient(
+      to bottom,
+      var(--color-22),
+      var(--color-21)
+    );
   }
 }
