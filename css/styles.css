@@ -247,7 +247,7 @@ p {
 .plusC1 .timeInformation,
 .plusC2 .timeInformation,
 .plusC3 .timeInformation {
-  margin: 8px 0px 12px 29px;
+  margin: 8px 0px 12px 14px;
 }
 
 .plusBorder {
@@ -260,7 +260,7 @@ p {
 }
 .plusCo1Menu {
   display: flex;
-  margin-left: 29px;
+  margin-left: 14px;
 }
 .plusCoSalvar {
   margin-right: 14px;
@@ -278,6 +278,7 @@ p {
   box-shadow: 0 -5px 10px var(--color-26);
   background-color: var(--color-1);
   border-radius: 8px 8px 0px 0px;
+  z-index: 5;
 }
 .barFixCo1 {
   position: relative;
