@@ -1131,15 +1131,30 @@
                     <!-- podcast-title -->
 
                     <div class="podcastLiveNow">
-                        <div class="podcastElipse"></div>
-                        <p>AO VIVO AGORA!</p>
+                        <div class="podcastElipse1"></div>
+                        <p class="podcastLiveNowTitle"> <span class="podcastElipse2"></span>AO VIVO AGORA!</p>
                     </div>
                 </div>
+                <div class="podcastImg">
+                    <picture>
+                        <source type="image/webp" srcset="./img/live.webp" width="345" height="194">
+                        <img src="./img/live.png" alt="Live Diário Delas" width="345" height="194">
+                    </picture>
 
-                <picture>
-                    <source type="image/webp" srcset="./img/live.webp" width="345" height="194">
-                    <img src="./img/live.png" alt="Live Diário Delas" width="345" height="194">
-                </picture>
+                    <svg class="svgSomDesligado" xmlns="http://www.w3.org/2000/svg" width="18" height="16"
+                        viewBox="0 0 18 16">
+                        <path id="som_desligado" data-name="som desligado"
+                            d="M36.6,7.669V.8A.8.8,0,0,0,35.187.286l-1.679,2a.8.8,0,1,0,1.225,1.03L35,3V6.069L29.166.235a.8.8,0,0,0-1.131,1.131L31.469,4.8H27.8a.8.8,0,0,0-.8.8v5.6a.8.8,0,0,0,.8.8h3.669l3.766,3.765A.8.8,0,0,0,36.6,15.2V9.932l3.616,3.616A3.333,3.333,0,0,1,38.59,14a.8.8,0,0,0,.01,1.6h.01a4.926,4.926,0,0,0,2.765-.894l1.059,1.06a.8.8,0,1,0,1.131-1.131Zm-1.6,5.6-2.634-2.634A.8.8,0,0,0,31.8,10.4H28.6v-4h4a.777.777,0,0,0,.368-.1L35,8.332ZM45,7.841a7.624,7.624,0,0,1-.983,3.753.8.8,0,0,1-1.394-.787A6.005,6.005,0,0,0,43.4,7.842c0-3-2.153-5.441-4.8-5.441a.8.8,0,1,1,0-1.6C42.129.8,45,3.958,45,7.841M40.1,8.5a1.35,1.35,0,0,0,.1-.554,1.522,1.522,0,0,0-.445-1.1,1.468,1.468,0,0,0-1.1-.446.825.825,0,0,1-.828-.777.777.777,0,0,1,.749-.822l.1,0A3.121,3.121,0,0,1,41.8,7.921,2.908,2.908,0,0,1,41.582,9.1a.8.8,0,0,1-.741.5.811.811,0,0,1-.3-.059A.8.8,0,0,1,40.1,8.5"
+                            transform="translate(-27 0)" fill="#fff" />
+                    </svg>
+
+                    <svg class="svgFullscreen" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        viewBox="0 0 16 16">
+                        <path id="fullscreen"
+                            d="M168.055,10.221a.777.777,0,0,0-.235-.553.809.809,0,0,0-.563-.228h0v0a.809.809,0,0,0-.561.229l-3.735,3.651V9.229a.792.792,0,0,0-.8-.784h0a.8.8,0,0,0-.562.228.776.776,0,0,0-.234.556v6a.783.783,0,0,0,.059.284.8.8,0,0,0,.442.431.838.838,0,0,0,.29.057h6.109a.788.788,0,0,0,.784-.773.767.767,0,0,0-.223-.558.809.809,0,0,0-.567-.239h-4.171l3.736-3.649a.78.78,0,0,0,.234-.559m-.8-.41h0Zm0,0V9.538l.013.274-.013,0M177.3.487a.8.8,0,0,0-.442-.431.827.827,0,0,0-.29-.057H170.46a.789.789,0,0,0-.784.773.767.767,0,0,0,.223.558.806.806,0,0,0,.567.239h4.171L170.9,5.22a.781.781,0,0,0-.235.559.773.773,0,0,0,.236.553.8.8,0,0,0,.562.228h0v0a.81.81,0,0,0,.561-.23l3.736-3.651V6.771a.792.792,0,0,0,.8.785h0a.8.8,0,0,0,.562-.229.775.775,0,0,0,.235-.556v-6a.784.784,0,0,0-.06-.284m-5.838,5.975-.013-.273.013,0Zm0-.273Z"
+                            transform="translate(-161.361)" fill="#fff" />
+                    </svg>
+                </div>
             </div>
             <!-- podcasts-live -->
 
@@ -1222,141 +1237,159 @@
         <!-- podcasts -->
 
         <section class="lotteries">
-            <div class="lotteries-c-text">
-                <h3>Loterias</h3>
-                <p>Selecione uma loteria</p>
+            <div class="lotteriesCoText">
+                <h3 class="lotteriesTitle">Loterias</h3>
+                <p class="lotteriesSelect">Selecione uma loteria</p>
             </div>
             <!-- lotteries-c-text -->
 
-            <div class="lotteries-c-contest">
-                <div class="contest-c-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
-                        <path id="Caminho_1737" data-name="Caminho 1737"
-                            d="M28.5,17.668V8.77a3.561,3.561,0,0,1,2.11-3.365,3.465,3.465,0,0,1,3.992.57,3.557,3.557,0,0,1,1.2,2.852v1.54c.741,0,1.426-.057,2.11,0a3.648,3.648,0,0,1-.171,7.243c-3.023.057-6.217.057-9.24.057Z"
-                            transform="translate(-15.049 -5.014)" fill="#95008b" opacity="0.44" />
-                        <path id="Caminho_1738" data-name="Caminho 1738"
-                            d="M17.6,17.668V8.77a3.561,3.561,0,0,0-2.11-3.365,3.465,3.465,0,0,0-3.992.57,3.557,3.557,0,0,0-1.2,2.852v1.54c-.741,0-1.426-.057-2.11,0A3.646,3.646,0,0,0,5,14.018a3.568,3.568,0,0,0,3.308,3.593c3.023.057,6.274.057,9.3.057Z"
-                            transform="translate(-5 -5.014)" fill="#95008b" />
-                        <path id="Caminho_1739" data-name="Caminho 1739"
-                            d="M28.5,28.489v8.9a3.561,3.561,0,0,0,2.11,3.365,3.465,3.465,0,0,0,3.992-.57,3.557,3.557,0,0,0,1.2-2.852V35.79c.741,0,1.426.057,2.11,0a3.648,3.648,0,0,0-.171-7.243c-3.023-.114-6.217-.057-9.24-.057Z"
-                            transform="translate(-15.049 -15.143)" fill="#95008b" />
-                        <path id="Caminho_1740" data-name="Caminho 1740"
-                            d="M17.6,28.489v8.9a3.561,3.561,0,0,1-2.11,3.365,3.465,3.465,0,0,1-3.992-.57,3.557,3.557,0,0,1-1.2-2.852V35.79c-.741,0-1.426.057-2.11,0A3.646,3.646,0,0,1,5,32.14a3.568,3.568,0,0,1,3.308-3.593c3.023-.114,6.274-.057,9.3-.057Z"
-                            transform="translate(-5 -15.143)" fill="#95008b" opacity="0.44" />
-                    </svg>
-                    <div class="contest-text">
-                        <h4>Concurso 2894</h4>
-                        <p>19/08/2023</p>
+            <div class="lotteriesCoContest">
+                <div class="contestC1">
+                    <div class="lotteriesCoSvg">
+                        <svg class="svgLotteries" xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                            viewBox="0 0 26 26">
+                            <path id="Caminho_1737" data-name="Caminho 1737"
+                                d="M28.5,17.668V8.77a3.561,3.561,0,0,1,2.11-3.365,3.465,3.465,0,0,1,3.992.57,3.557,3.557,0,0,1,1.2,2.852v1.54c.741,0,1.426-.057,2.11,0a3.648,3.648,0,0,1-.171,7.243c-3.023.057-6.217.057-9.24.057Z"
+                                transform="translate(-15.049 -5.014)" fill="#95008b" opacity="0.44" />
+                            <path id="Caminho_1738" data-name="Caminho 1738"
+                                d="M17.6,17.668V8.77a3.561,3.561,0,0,0-2.11-3.365,3.465,3.465,0,0,0-3.992.57,3.557,3.557,0,0,0-1.2,2.852v1.54c-.741,0-1.426-.057-2.11,0A3.646,3.646,0,0,0,5,14.018a3.568,3.568,0,0,0,3.308,3.593c3.023.057,6.274.057,9.3.057Z"
+                                transform="translate(-5 -5.014)" fill="#95008b" />
+                            <path id="Caminho_1739" data-name="Caminho 1739"
+                                d="M28.5,28.489v8.9a3.561,3.561,0,0,0,2.11,3.365,3.465,3.465,0,0,0,3.992-.57,3.557,3.557,0,0,0,1.2-2.852V35.79c.741,0,1.426.057,2.11,0a3.648,3.648,0,0,0-.171-7.243c-3.023-.114-6.217-.057-9.24-.057Z"
+                                transform="translate(-15.049 -15.143)" fill="#95008b" />
+                            <path id="Caminho_1740" data-name="Caminho 1740"
+                                d="M17.6,28.489v8.9a3.561,3.561,0,0,1-2.11,3.365,3.465,3.465,0,0,1-3.992-.57,3.557,3.557,0,0,1-1.2-2.852V35.79c-.741,0-1.426.057-2.11,0A3.646,3.646,0,0,1,5,32.14a3.568,3.568,0,0,1,3.308-3.593c3.023-.114,6.274-.057,9.3-.057Z"
+                                transform="translate(-5 -15.143)" fill="#95008b" opacity="0.44" />
+                        </svg>
+                    </div>
+                    <div class="contestText">
+                        <h4 class="contestTextTitle">Concurso 2894</h4>
+                        <p class="timeLotteries">19/08/2023</p>
                     </div>
                 </div>
                 <!-- contest-c-1 -->
 
-                <div class="contest-c-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
-                        <path id="Caminho_1741" data-name="Caminho 1741"
-                            d="M28.5,17.668V8.77a3.561,3.561,0,0,1,2.11-3.365,3.465,3.465,0,0,1,3.992.57,3.557,3.557,0,0,1,1.2,2.852v1.54c.741,0,1.426-.057,2.11,0a3.648,3.648,0,0,1-.171,7.243c-3.023.057-6.217.057-9.24.057Z"
-                            transform="translate(-15.049 -5.014)" fill="#f98100" opacity="0.44" />
-                        <path id="Caminho_1742" data-name="Caminho 1742"
-                            d="M17.6,17.668V8.77a3.561,3.561,0,0,0-2.11-3.365,3.465,3.465,0,0,0-3.992.57,3.557,3.557,0,0,0-1.2,2.852v1.54c-.741,0-1.426-.057-2.11,0A3.646,3.646,0,0,0,5,14.018a3.568,3.568,0,0,0,3.308,3.593c3.023.057,6.274.057,9.3.057Z"
-                            transform="translate(-5 -5.014)" fill="#f98100" />
-                        <path id="Caminho_1743" data-name="Caminho 1743"
-                            d="M28.5,28.489v8.9a3.561,3.561,0,0,0,2.11,3.365,3.465,3.465,0,0,0,3.992-.57,3.557,3.557,0,0,0,1.2-2.852V35.79c.741,0,1.426.057,2.11,0a3.648,3.648,0,0,0-.171-7.243c-3.023-.114-6.217-.057-9.24-.057Z"
-                            transform="translate(-15.049 -15.143)" fill="#f98100" />
-                        <path id="Caminho_1744" data-name="Caminho 1744"
-                            d="M17.6,28.489v8.9a3.561,3.561,0,0,1-2.11,3.365,3.465,3.465,0,0,1-3.992-.57,3.557,3.557,0,0,1-1.2-2.852V35.79c-.741,0-1.426.057-2.11,0A3.646,3.646,0,0,1,5,32.14a3.568,3.568,0,0,1,3.308-3.593c3.023-.114,6.274-.057,9.3-.057Z"
-                            transform="translate(-5 -15.143)" fill="#f98100" opacity="0.44" />
-                    </svg>
-                    <div class="contest-text">
-                        <h4>Concurso 2509</h4>
-                        <p>18/08/2023</p>
+                <div class="contestC2">
+                    <div class="lotteriesCoSvg">
+                        <svg class="svgLotteries" xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                            viewBox="0 0 26 26">
+                            <path id="Caminho_1741" data-name="Caminho 1741"
+                                d="M28.5,17.668V8.77a3.561,3.561,0,0,1,2.11-3.365,3.465,3.465,0,0,1,3.992.57,3.557,3.557,0,0,1,1.2,2.852v1.54c.741,0,1.426-.057,2.11,0a3.648,3.648,0,0,1-.171,7.243c-3.023.057-6.217.057-9.24.057Z"
+                                transform="translate(-15.049 -5.014)" fill="#f98100" opacity="0.44" />
+                            <path id="Caminho_1742" data-name="Caminho 1742"
+                                d="M17.6,17.668V8.77a3.561,3.561,0,0,0-2.11-3.365,3.465,3.465,0,0,0-3.992.57,3.557,3.557,0,0,0-1.2,2.852v1.54c-.741,0-1.426-.057-2.11,0A3.646,3.646,0,0,0,5,14.018a3.568,3.568,0,0,0,3.308,3.593c3.023.057,6.274.057,9.3.057Z"
+                                transform="translate(-5 -5.014)" fill="#f98100" />
+                            <path id="Caminho_1743" data-name="Caminho 1743"
+                                d="M28.5,28.489v8.9a3.561,3.561,0,0,0,2.11,3.365,3.465,3.465,0,0,0,3.992-.57,3.557,3.557,0,0,0,1.2-2.852V35.79c.741,0,1.426.057,2.11,0a3.648,3.648,0,0,0-.171-7.243c-3.023-.114-6.217-.057-9.24-.057Z"
+                                transform="translate(-15.049 -15.143)" fill="#f98100" />
+                            <path id="Caminho_1744" data-name="Caminho 1744"
+                                d="M17.6,28.489v8.9a3.561,3.561,0,0,1-2.11,3.365,3.465,3.465,0,0,1-3.992-.57,3.557,3.557,0,0,1-1.2-2.852V35.79c-.741,0-1.426.057-2.11,0A3.646,3.646,0,0,1,5,32.14a3.568,3.568,0,0,1,3.308-3.593c3.023-.114,6.274-.057,9.3-.057Z"
+                                transform="translate(-5 -15.143)" fill="#f98100" opacity="0.44" />
+                        </svg>
+                    </div>
+                    <div class="contestText">
+                        <h4 class="contestTextTitle">Concurso 2509</h4>
+                        <p class="timeLotteries">18/08/2023</p>
                     </div>
                 </div>
                 <!-- contest-c-2 -->
 
-                <div class="contest-c-3">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
-                        <path id="Caminho_1745" data-name="Caminho 1745"
-                            d="M28.5,17.668V8.77a3.561,3.561,0,0,1,2.11-3.365,3.465,3.465,0,0,1,3.992.57,3.557,3.557,0,0,1,1.2,2.852v1.54c.741,0,1.426-.057,2.11,0a3.648,3.648,0,0,1-.171,7.243c-3.023.057-6.217.057-9.24.057Z"
-                            transform="translate(-15.049 -5.014)" fill="lime" opacity="0.44" />
-                        <path id="Caminho_1746" data-name="Caminho 1746"
-                            d="M17.6,17.668V8.77a3.561,3.561,0,0,0-2.11-3.365,3.465,3.465,0,0,0-3.992.57,3.557,3.557,0,0,0-1.2,2.852v1.54c-.741,0-1.426-.057-2.11,0A3.646,3.646,0,0,0,5,14.018a3.568,3.568,0,0,0,3.308,3.593c3.023.057,6.274.057,9.3.057Z"
-                            transform="translate(-5 -5.014)" fill="lime" />
-                        <path id="Caminho_1747" data-name="Caminho 1747"
-                            d="M28.5,28.489v8.9a3.561,3.561,0,0,0,2.11,3.365,3.465,3.465,0,0,0,3.992-.57,3.557,3.557,0,0,0,1.2-2.852V35.79c.741,0,1.426.057,2.11,0a3.648,3.648,0,0,0-.171-7.243c-3.023-.114-6.217-.057-9.24-.057Z"
-                            transform="translate(-15.049 -15.143)" fill="lime" />
-                        <path id="Caminho_1748" data-name="Caminho 1748"
-                            d="M17.6,28.489v8.9a3.561,3.561,0,0,1-2.11,3.365,3.465,3.465,0,0,1-3.992-.57,3.557,3.557,0,0,1-1.2-2.852V35.79c-.741,0-1.426.057-2.11,0A3.646,3.646,0,0,1,5,32.14a3.568,3.568,0,0,1,3.308-3.593c3.023-.114,6.274-.057,9.3-.057Z"
-                            transform="translate(-5 -15.143)" fill="lime" opacity="0.44" />
-                    </svg>
-                    <div class="contest-text">
-                        <h4>Concurso 1978</h4>
-                        <p>19/08/2023</p>
+                <div class="contestC3">
+                    <div class="lotteriesCoSvg">
+                        <svg class="svgLotteries" xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                            viewBox="0 0 26 26">
+                            <path id="Caminho_1745" data-name="Caminho 1745"
+                                d="M28.5,17.668V8.77a3.561,3.561,0,0,1,2.11-3.365,3.465,3.465,0,0,1,3.992.57,3.557,3.557,0,0,1,1.2,2.852v1.54c.741,0,1.426-.057,2.11,0a3.648,3.648,0,0,1-.171,7.243c-3.023.057-6.217.057-9.24.057Z"
+                                transform="translate(-15.049 -5.014)" fill="lime" opacity="0.44" />
+                            <path id="Caminho_1746" data-name="Caminho 1746"
+                                d="M17.6,17.668V8.77a3.561,3.561,0,0,0-2.11-3.365,3.465,3.465,0,0,0-3.992.57,3.557,3.557,0,0,0-1.2,2.852v1.54c-.741,0-1.426-.057-2.11,0A3.646,3.646,0,0,0,5,14.018a3.568,3.568,0,0,0,3.308,3.593c3.023.057,6.274.057,9.3.057Z"
+                                transform="translate(-5 -5.014)" fill="lime" />
+                            <path id="Caminho_1747" data-name="Caminho 1747"
+                                d="M28.5,28.489v8.9a3.561,3.561,0,0,0,2.11,3.365,3.465,3.465,0,0,0,3.992-.57,3.557,3.557,0,0,0,1.2-2.852V35.79c.741,0,1.426.057,2.11,0a3.648,3.648,0,0,0-.171-7.243c-3.023-.114-6.217-.057-9.24-.057Z"
+                                transform="translate(-15.049 -15.143)" fill="lime" />
+                            <path id="Caminho_1748" data-name="Caminho 1748"
+                                d="M17.6,28.489v8.9a3.561,3.561,0,0,1-2.11,3.365,3.465,3.465,0,0,1-3.992-.57,3.557,3.557,0,0,1-1.2-2.852V35.79c-.741,0-1.426.057-2.11,0A3.646,3.646,0,0,1,5,32.14a3.568,3.568,0,0,1,3.308-3.593c3.023-.114,6.274-.057,9.3-.057Z"
+                                transform="translate(-5 -15.143)" fill="lime" opacity="0.44" />
+                        </svg>
+                    </div>
+                    <div class="contestText">
+                        <h4 class="contestTextTitle">Concurso 1978</h4>
+                        <p class="timeLotteries">19/08/2023</p>
                     </div>
                 </div>
                 <!-- contest-c-3 -->
 
-                <div class="contest-c-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
-                        <path id="Caminho_1749" data-name="Caminho 1749"
-                            d="M28.5,17.668V8.77a3.561,3.561,0,0,1,2.11-3.365,3.465,3.465,0,0,1,3.992.57,3.557,3.557,0,0,1,1.2,2.852v1.54c.741,0,1.426-.057,2.11,0a3.648,3.648,0,0,1-.171,7.243c-3.023.057-6.217.057-9.24.057Z"
-                            transform="translate(-15.049 -5.014)" fill="#149968" opacity="0.44" />
-                        <path id="Caminho_1750" data-name="Caminho 1750"
-                            d="M17.6,17.668V8.77a3.561,3.561,0,0,0-2.11-3.365,3.465,3.465,0,0,0-3.992.57,3.557,3.557,0,0,0-1.2,2.852v1.54c-.741,0-1.426-.057-2.11,0A3.646,3.646,0,0,0,5,14.018a3.568,3.568,0,0,0,3.308,3.593c3.023.057,6.274.057,9.3.057Z"
-                            transform="translate(-5 -5.014)" fill="#149968" />
-                        <path id="Caminho_1751" data-name="Caminho 1751"
-                            d="M28.5,28.489v8.9a3.561,3.561,0,0,0,2.11,3.365,3.465,3.465,0,0,0,3.992-.57,3.557,3.557,0,0,0,1.2-2.852V35.79c.741,0,1.426.057,2.11,0a3.648,3.648,0,0,0-.171-7.243c-3.023-.114-6.217-.057-9.24-.057Z"
-                            transform="translate(-15.049 -15.143)" fill="#149968" />
-                        <path id="Caminho_1752" data-name="Caminho 1752"
-                            d="M17.6,28.489v8.9a3.561,3.561,0,0,1-2.11,3.365,3.465,3.465,0,0,1-3.992-.57,3.557,3.557,0,0,1-1.2-2.852V35.79c-.741,0-1.426.057-2.11,0A3.646,3.646,0,0,1,5,32.14a3.568,3.568,0,0,1,3.308-3.593c3.023-.114,6.274-.057,9.3-.057Z"
-                            transform="translate(-5 -15.143)" fill="#149968" opacity="0.44" />
-                    </svg>
-                    <div class="contest-text">
-                        <h4>Concurso 2622</h4>
-                        <p>19/08/2023</p>
+                <div class="contestC4">
+                    <div class="lotteriesCoSvg">
+                        <svg class="svgLotteries" xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                            viewBox="0 0 26 26">
+                            <path id="Caminho_1749" data-name="Caminho 1749"
+                                d="M28.5,17.668V8.77a3.561,3.561,0,0,1,2.11-3.365,3.465,3.465,0,0,1,3.992.57,3.557,3.557,0,0,1,1.2,2.852v1.54c.741,0,1.426-.057,2.11,0a3.648,3.648,0,0,1-.171,7.243c-3.023.057-6.217.057-9.24.057Z"
+                                transform="translate(-15.049 -5.014)" fill="#149968" opacity="0.44" />
+                            <path id="Caminho_1750" data-name="Caminho 1750"
+                                d="M17.6,17.668V8.77a3.561,3.561,0,0,0-2.11-3.365,3.465,3.465,0,0,0-3.992.57,3.557,3.557,0,0,0-1.2,2.852v1.54c-.741,0-1.426-.057-2.11,0A3.646,3.646,0,0,0,5,14.018a3.568,3.568,0,0,0,3.308,3.593c3.023.057,6.274.057,9.3.057Z"
+                                transform="translate(-5 -5.014)" fill="#149968" />
+                            <path id="Caminho_1751" data-name="Caminho 1751"
+                                d="M28.5,28.489v8.9a3.561,3.561,0,0,0,2.11,3.365,3.465,3.465,0,0,0,3.992-.57,3.557,3.557,0,0,0,1.2-2.852V35.79c.741,0,1.426.057,2.11,0a3.648,3.648,0,0,0-.171-7.243c-3.023-.114-6.217-.057-9.24-.057Z"
+                                transform="translate(-15.049 -15.143)" fill="#149968" />
+                            <path id="Caminho_1752" data-name="Caminho 1752"
+                                d="M17.6,28.489v8.9a3.561,3.561,0,0,1-2.11,3.365,3.465,3.465,0,0,1-3.992-.57,3.557,3.557,0,0,1-1.2-2.852V35.79c-.741,0-1.426.057-2.11,0A3.646,3.646,0,0,1,5,32.14a3.568,3.568,0,0,1,3.308-3.593c3.023-.114,6.274-.057,9.3-.057Z"
+                                transform="translate(-5 -15.143)" fill="#149968" opacity="0.44" />
+                        </svg>
+                    </div>
+                    <div class="contestText">
+                        <h4 class="contestTextTitle">Concurso 2622</h4>
+                        <p class="timeLotteries">19/08/2023</p>
                     </div>
                 </div>
                 <!-- contest-c-4 -->
 
-                <div class="contest-c-5">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
-                        <path id="Caminho_1753" data-name="Caminho 1753"
-                            d="M28.5,17.668V8.77a3.561,3.561,0,0,1,2.11-3.365,3.465,3.465,0,0,1,3.992.57,3.557,3.557,0,0,1,1.2,2.852v1.54c.741,0,1.426-.057,2.11,0a3.648,3.648,0,0,1-.171,7.243c-3.023.057-6.217.057-9.24.057Z"
-                            transform="translate(-15.049 -5.014)" fill="#0c2b9c" opacity="0.44" />
-                        <path id="Caminho_1754" data-name="Caminho 1754"
-                            d="M17.6,17.668V8.77a3.561,3.561,0,0,0-2.11-3.365,3.465,3.465,0,0,0-3.992.57,3.557,3.557,0,0,0-1.2,2.852v1.54c-.741,0-1.426-.057-2.11,0A3.646,3.646,0,0,0,5,14.018a3.568,3.568,0,0,0,3.308,3.593c3.023.057,6.274.057,9.3.057Z"
-                            transform="translate(-5 -5.014)" fill="#0c2b9c" />
-                        <path id="Caminho_1755" data-name="Caminho 1755"
-                            d="M28.5,28.489v8.9a3.561,3.561,0,0,0,2.11,3.365,3.465,3.465,0,0,0,3.992-.57,3.557,3.557,0,0,0,1.2-2.852V35.79c.741,0,1.426.057,2.11,0a3.648,3.648,0,0,0-.171-7.243c-3.023-.114-6.217-.057-9.24-.057Z"
-                            transform="translate(-15.049 -15.143)" fill="#0c2b9c" />
-                        <path id="Caminho_1756" data-name="Caminho 1756"
-                            d="M17.6,28.489v8.9a3.561,3.561,0,0,1-2.11,3.365,3.465,3.465,0,0,1-3.992-.57,3.557,3.557,0,0,1-1.2-2.852V35.79c-.741,0-1.426.057-2.11,0A3.646,3.646,0,0,1,5,32.14a3.568,3.568,0,0,1,3.308-3.593c3.023-.114,6.274-.057,9.3-.057Z"
-                            transform="translate(-5 -15.143)" fill="#0c2b9c" opacity="0.44" />
-                    </svg>
-                    <div class="contest-text">
-                        <h4>Concurso 5792</h4>
-                        <p>19/08/2023</p>
+                <div class="contestC5">
+                    <div class="lotteriesCoSvg">
+                        <svg class="svgLotteries" xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                            viewBox="0 0 26 26">
+                            <path id="Caminho_1753" data-name="Caminho 1753"
+                                d="M28.5,17.668V8.77a3.561,3.561,0,0,1,2.11-3.365,3.465,3.465,0,0,1,3.992.57,3.557,3.557,0,0,1,1.2,2.852v1.54c.741,0,1.426-.057,2.11,0a3.648,3.648,0,0,1-.171,7.243c-3.023.057-6.217.057-9.24.057Z"
+                                transform="translate(-15.049 -5.014)" fill="#0c2b9c" opacity="0.44" />
+                            <path id="Caminho_1754" data-name="Caminho 1754"
+                                d="M17.6,17.668V8.77a3.561,3.561,0,0,0-2.11-3.365,3.465,3.465,0,0,0-3.992.57,3.557,3.557,0,0,0-1.2,2.852v1.54c-.741,0-1.426-.057-2.11,0A3.646,3.646,0,0,0,5,14.018a3.568,3.568,0,0,0,3.308,3.593c3.023.057,6.274.057,9.3.057Z"
+                                transform="translate(-5 -5.014)" fill="#0c2b9c" />
+                            <path id="Caminho_1755" data-name="Caminho 1755"
+                                d="M28.5,28.489v8.9a3.561,3.561,0,0,0,2.11,3.365,3.465,3.465,0,0,0,3.992-.57,3.557,3.557,0,0,0,1.2-2.852V35.79c.741,0,1.426.057,2.11,0a3.648,3.648,0,0,0-.171-7.243c-3.023-.114-6.217-.057-9.24-.057Z"
+                                transform="translate(-15.049 -15.143)" fill="#0c2b9c" />
+                            <path id="Caminho_1756" data-name="Caminho 1756"
+                                d="M17.6,28.489v8.9a3.561,3.561,0,0,1-2.11,3.365,3.465,3.465,0,0,1-3.992-.57,3.557,3.557,0,0,1-1.2-2.852V35.79c-.741,0-1.426.057-2.11,0A3.646,3.646,0,0,1,5,32.14a3.568,3.568,0,0,1,3.308-3.593c3.023-.114,6.274-.057,9.3-.057Z"
+                                transform="translate(-5 -15.143)" fill="#0c2b9c" opacity="0.44" />
+                        </svg>
+                    </div>
+                    <div class="contestText">
+                        <h4 class="contestTextTitle">Concurso 5792</h4>
+                        <p class="timeLotteries">19/08/2023</p>
                     </div>
                 </div>
                 <!-- contest-c-5 -->
 
-                <div class="contest-c-6">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
-                        <path id="Caminho_1757" data-name="Caminho 1753"
-                            d="M28.5,17.668V8.77a3.561,3.561,0,0,1,2.11-3.365,3.465,3.465,0,0,1,3.992.57,3.557,3.557,0,0,1,1.2,2.852v1.54c.741,0,1.426-.057,2.11,0a3.648,3.648,0,0,1-.171,7.243c-3.023.057-6.217.057-9.24.057Z"
-                            transform="translate(-15.049 -5.014)" fill="#260087" opacity="0.44" />
-                        <path id="Caminho_1758" data-name="Caminho 1754"
-                            d="M17.6,17.668V8.77a3.561,3.561,0,0,0-2.11-3.365,3.465,3.465,0,0,0-3.992.57,3.557,3.557,0,0,0-1.2,2.852v1.54c-.741,0-1.426-.057-2.11,0A3.646,3.646,0,0,0,5,14.018a3.568,3.568,0,0,0,3.308,3.593c3.023.057,6.274.057,9.3.057Z"
-                            transform="translate(-5 -5.014)" fill="#260087" />
-                        <path id="Caminho_1759" data-name="Caminho 1755"
-                            d="M28.5,28.489v8.9a3.561,3.561,0,0,0,2.11,3.365,3.465,3.465,0,0,0,3.992-.57,3.557,3.557,0,0,0,1.2-2.852V35.79c.741,0,1.426.057,2.11,0a3.648,3.648,0,0,0-.171-7.243c-3.023-.114-6.217-.057-9.24-.057Z"
-                            transform="translate(-15.049 -15.143)" fill="#260087" />
-                        <path id="Caminho_1760" data-name="Caminho 1756"
-                            d="M17.6,28.489v8.9a3.561,3.561,0,0,1-2.11,3.365,3.465,3.465,0,0,1-3.992-.57,3.557,3.557,0,0,1-1.2-2.852V35.79c-.741,0-1.426.057-2.11,0A3.646,3.646,0,0,1,5,32.14a3.568,3.568,0,0,1,3.308-3.593c3.023-.114,6.274-.057,9.3-.057Z"
-                            transform="translate(-5 -15.143)" fill="#260087" opacity="0.44" />
-                    </svg>
-                    <div class="contest-text">
-                        <h4>Concurso 6220</h4>
-                        <p>19/08/2023</p>
+                <div class="contestC6">
+                    <div class="lotteriesCoSvg">
+                        <svg class="svgLotteries" xmlns="http://www.w3.org/2000/svg" width="26" height="26"
+                            viewBox="0 0 26 26">
+                            <path id="Caminho_1757" data-name="Caminho 1753"
+                                d="M28.5,17.668V8.77a3.561,3.561,0,0,1,2.11-3.365,3.465,3.465,0,0,1,3.992.57,3.557,3.557,0,0,1,1.2,2.852v1.54c.741,0,1.426-.057,2.11,0a3.648,3.648,0,0,1-.171,7.243c-3.023.057-6.217.057-9.24.057Z"
+                                transform="translate(-15.049 -5.014)" fill="#260087" opacity="0.44" />
+                            <path id="Caminho_1758" data-name="Caminho 1754"
+                                d="M17.6,17.668V8.77a3.561,3.561,0,0,0-2.11-3.365,3.465,3.465,0,0,0-3.992.57,3.557,3.557,0,0,0-1.2,2.852v1.54c-.741,0-1.426-.057-2.11,0A3.646,3.646,0,0,0,5,14.018a3.568,3.568,0,0,0,3.308,3.593c3.023.057,6.274.057,9.3.057Z"
+                                transform="translate(-5 -5.014)" fill="#260087" />
+                            <path id="Caminho_1759" data-name="Caminho 1755"
+                                d="M28.5,28.489v8.9a3.561,3.561,0,0,0,2.11,3.365,3.465,3.465,0,0,0,3.992-.57,3.557,3.557,0,0,0,1.2-2.852V35.79c.741,0,1.426.057,2.11,0a3.648,3.648,0,0,0-.171-7.243c-3.023-.114-6.217-.057-9.24-.057Z"
+                                transform="translate(-15.049 -15.143)" fill="#260087" />
+                            <path id="Caminho_1760" data-name="Caminho 1756"
+                                d="M17.6,28.489v8.9a3.561,3.561,0,0,1-2.11,3.365,3.465,3.465,0,0,1-3.992-.57,3.557,3.557,0,0,1-1.2-2.852V35.79c-.741,0-1.426.057-2.11,0A3.646,3.646,0,0,1,5,32.14a3.568,3.568,0,0,1,3.308-3.593c3.023-.114,6.274-.057,9.3-.057Z"
+                                transform="translate(-5 -15.143)" fill="#260087" opacity="0.44" />
+                        </svg>
+                    </div>
+                    <div class="contestText">
+                        <h4 class="contestTextTitle">Concurso 6220</h4>
+                        <p class="timeLotteries">19/08/2023</p>
                     </div>
                 </div>
                 <!-- contest-c-6 -->
@@ -1807,29 +1840,32 @@
         <!-- economy -->
 
         <section class="exchange">
-            <div class="exchange-title">
-                <h3>Câmbio</h3>
-                <p>Atualizado em 25/10/2023</p>
+            <div class="exchangeTitle">
+                <h3 class="exchangeT">Câmbio</h3>
+                <p class="exchangeTeTime">Atualizado em 25/10/2023</p>
             </div>
             <!-- exchange-title -->
 
-            <div class="exchange-c-values">
-                <div class="exchange-c-values-dolar">
-                    <p>R$5,00</p>
-                    <div class="exchange-value-quote">
-                        <p>Dólar</p> <span>+0,01%</span>
+            <div class="exchangeCoValues">
+                <div class="exchangeCoValuesDolar">
+                    <p class="valueMo">R$5,00</p>
+                    <div class="exchangeValueQuote">
+                        <p class="exchangeVa">Dólar</p>
+                        <span class="span">+0,01%</span>
                     </div>
                 </div>
-                <div class="exchange-c-values-euro">
-                    <p>R$5,28</p>
-                    <div class="exchange-value-quote">
-                        <p>Euro</p> <span>-0,25%</span>
+                <div class="exchangeCoValuesEuro">
+                    <p class="valueMo">R$5,28</p>
+                    <div class="exchangeValueQuote">
+                        <p class="exchangeVa">Euro</p>
+                        <span class="span">-0,25%</span>
                     </div>
                 </div>
-                <div class="exchange-c-values-bitcoin">
-                    <p>R$ 113.801,79</p>
-                    <div class="exchange-value-quote">
-                        <p>Bitcoin</p> <span>-2.11%</span>
+                <div class="exchangeCoValuesBitcoin">
+                    <p class="valueMo">R$ 113.801,79</p>
+                    <div class="exchangeValueQuote">
+                        <p class="exchangeVa">Bitcoin</p>
+                        <span class="span">-2.11%</span>
                     </div>
                 </div>
             </div>
@@ -2049,9 +2085,9 @@
         <!-- cities -->
 
         <section class="videos">
-            <div class="videos-live">
-                <div class="videos-live-c-title">
-                    <div class="videos-title">
+            <div class="videosLive">
+                <div class="videosLiveCoTitle">
+                    <div class="videosTitle">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21" viewBox="0 0 24 21">
                             <path id="vídeos"
                                 d="M21.6,15.238v2.87l-2.68-1.68,2.68-1.435Zm-7.2,4.2a1.2,1.2,0,0,1-1.2,1.2H3.6a1.2,1.2,0,0,1-1.2-1.2V13.465a1.2,1.2,0,0,1,1.2-1.2h9.6a1.2,1.2,0,0,1,1.2,1.2ZM4.936,6.85a1.2,1.2,0,1,1-1.2,1.237V8.051A1.2,1.2,0,0,1,4.936,6.85Zm6-2.4a2.444,2.444,0,0,1,2.545,2.332,2.474,2.474,0,0,1-4.944.142c0-.023,0-.048,0-.071a2.4,2.4,0,0,1,2.4-2.4Zm11.232,7.128L16.8,14.923V11.656A2.311,2.311,0,0,0,14.946,9.3a4.815,4.815,0,0,0,.74-2.45,4.784,4.784,0,0,0-4.768-4.807h-.007A4.763,4.763,0,0,0,6.565,4.866a3.515,3.515,0,0,0-1.636-.42,3.6,3.6,0,0,0-3.6,3.595v.01A3.51,3.51,0,0,0,1.52,9.463,2.5,2.5,0,0,0,0,11.656v8.377c0,1.329,1.274,3.01,2.6,3.01h12c1.32,0,2.2-1.68,2.2-3.01V17.944l5.364,3.349a1.22,1.22,0,0,0,1.654-.371A1.139,1.139,0,0,0,24,20.277V12.589A1.182,1.182,0,0,0,22.827,11.4a1.232,1.232,0,0,0-.664.177Z"
@@ -2067,7 +2103,7 @@
                     <img src="./img/photo-34.png" alt="Live Diário Delas" width="345" height="194">
                 </picture>
 
-                <div class="videos-play">
+                <div class="videosPlay">
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14">
                         <path
                             d="M19.995,16.853,11.9,21.73A1.961,1.961,0,0,1,9,19.877V10.123A1.961,1.961,0,0,1,11.9,8.27l8.092,4.877A2.211,2.211,0,0,1,19.995,16.853Z"
@@ -2075,30 +2111,38 @@
                     </svg>
                 </div>
 
-                <p class="podcasts-time">3:57</p>
+                <div class="podcastsPlay">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14">
+                        <path
+                            d="M19.995,16.853,11.9,21.73A1.961,1.961,0,0,1,9,19.877V10.123A1.961,1.961,0,0,1,11.9,8.27l8.092,4.877A2.211,2.211,0,0,1,19.995,16.853Z"
+                            transform="translate(-9 -8)" fill="#fff" />
+                    </svg>
+                </div>
+
+                <p class="podcastsTime">3:57</p>
             </div>
             <!-- videos -->
 
-            <div class="videos-text-title">
+            <div class="podcastsTextTitle">
                 <h3>CDL-VR lança aplicativo e campanha de Natal</h3>
                 <p class="timeInformation">28 de Novembro de 2023</p>
             </div>
             <!-- videos-text-title -->
 
-            <div class="videos-other">
-                <div class="videos-other-1">
+            <div class="podcastsOther">
+                <div class="podcastsOther1">
                     <picture>
                         <source type="image/webp" srcset="./img/photo-35.webp" width="125" height="97">
                         <img src="./img/photo-35.png" alt="Copa Diarinho" width="125" height="97">
                     </picture>
-                    <div class="videos-other-c-text">
+                    <div class="podcastsOtherCoText">
                         <h3>Aciap-VR realiza evento em <br>prol da Associação Laços ...</h3>
                         <p class="timeInformation">há 4 meses</p>
-                        <p class="podcasts-time">3:57</p>
+                        <p class="podcastsTime">3:57</p>
                     </div>
                     <!-- videos-c-text -->
 
-                    <div class="videos-play">
+                    <div class="podcastsPlay">
                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14">
                             <path
                                 d="M19.995,16.853,11.9,21.73A1.961,1.961,0,0,1,9,19.877V10.123A1.961,1.961,0,0,1,11.9,8.27l8.092,4.877A2.211,2.211,0,0,1,19.995,16.853Z"
@@ -2108,19 +2152,19 @@
                 </div>
                 <!-- videos-other-1 -->
 
-                <div class="videos-other-2">
+                <div class="podcastsOther2">
                     <picture>
                         <source type="image/webp" srcset="./img/photo-36.webp" width="125" height="97">
                         <img src="./img/photo-36.png" alt="Copa Diarinho" width="125" height="97">
                     </picture>
-                    <div class="videos-other-c-text">
+                    <div class="podcastsOtherCoText">
                         <h3>ABERTURA DA XVIII COPA <br>DIARINHO - 06 DE MAIO ...</h3>
                         <p class="timeInformation">há 4 meses</p>
-                        <p class="videos-time">3:57</p>
+                        <p class="podcastsTime">3:57</p>
                     </div>
                     <!-- videos-c-text -->
 
-                    <div class="videos-play">
+                    <div class="podcastsPlay">
                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14">
                             <path
                                 d="M19.995,16.853,11.9,21.73A1.961,1.961,0,0,1,9,19.877V10.123A1.961,1.961,0,0,1,11.9,8.27l8.092,4.877A2.211,2.211,0,0,1,19.995,16.853Z"
@@ -2130,19 +2174,19 @@
                 </div>
                 <!-- videos-other-2 -->
 
-                <div class="videos-other-3">
+                <div class="podcastsOther3">
                     <picture>
                         <source type="image/webp" srcset="./img/photo-37.webp" width="125" height="97">
                         <img src="./img/photo-37.png" alt="Live Diário Delas" width="125" height="97">
                     </picture>
-                    <div class="videos-other-c-text">
+                    <div class="podcastsOtherCoText">
                         <h3>Khetlyn Rocha explica tudo <br>sobre Menopausa</h3>
                         <p class="timeInformation">há 4 meses</p>
-                        <p class="videos-time">3:57</p>
+                        <p class="podcastsTime">3:57</p>
                     </div>
                     <!-- videos-c-text -->
 
-                    <div class="videos-play">
+                    <div class="podcastsPlay">
                         <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14">
                             <path
                                 d="M19.995,16.853,11.9,21.73A1.961,1.961,0,0,1,9,19.877V10.123A1.961,1.961,0,0,1,11.9,8.27l8.092,4.877A2.211,2.211,0,0,1,19.995,16.853Z"
@@ -2157,14 +2201,14 @@
         </section>
         <!-- videos -->
 
-        <section class="columns-horoscope">
-            <div class="columns-c">
-                <div class="columns-c-title">
+        <section class="columnsHoroscope">
+            <div class="columnsC">
+                <div class="columnsCoTitle">
                     <h2>Colunas</h2>
-                    <div class="more-columns">
-                        <button class="btn-more-selected" title="more"></button>
-                        <button class="btn-more" title="more"></button>
-                        <button class="btn-more" title="more"></button>
+                    <div class="proxProm">
+                        <button class="btnProx" title="prox"></button>
+                        <button class="btnProx" title="prox"></button>
+                        <button class="btnProx" title="prox"></button>
                     </div>
                 </div>
                 <!-- columns-c-title -->
