@@ -1957,4 +1957,225 @@ p {
   }
 }
 
-/*  */
+/* SIGNS */
+.columnsHoroscope {
+  margin: 0px 15px 32px 15px;
+  width: 345px;
+  .columnsC {
+    .columnsCoTitle {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+      .proxProm {
+        margin: 0;
+        margin-right: -8px;
+        padding: 0;
+      }
+    }
+    .columnsCoContent {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 32px;
+      .diaryTitle {
+        font-family: var(--figtree);
+        font-size: 1.8em;
+        font-weight: 600;
+        color: var(--color-2);
+        letter-spacing: 0;
+        line-height: 22px;
+      }
+      .columnsRockDiary {
+        .diaryP {
+          font-family: var(--figtree);
+          font-size: 1em;
+          font-weight: 400;
+          color: var(--color-2);
+          letter-spacing: 0;
+          line-height: 12px;
+        }
+      }
+      .columnsPetDiary {
+        .diaryTitle {
+          font-family: var(--figtree);
+          font-size: 1.8em;
+          font-weight: 600;
+          color: var(--color-2);
+          letter-spacing: 0;
+          line-height: 22px;
+        }
+        .diaryP {
+          font-family: var(--figtree);
+          font-size: 1em;
+          font-weight: 400;
+          color: var(--color-2);
+          letter-spacing: 0;
+          line-height: 12px;
+        }
+      }
+    }
+
+    .horoscopeCoContent {
+      padding: 20px;
+      box-shadow: 0px 15px 20px var(--color-5);
+      border-radius: 10px;
+      width: 345px;
+      height: 300px;
+      position: relative;
+      .horoscopeCoText {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .horoscopeTitle {
+          .horoscopePTitle {
+            font-family: var(--figtree);
+            font-size: 1.4em;
+            font-weight: bold;
+            color: var(--color-2);
+            letter-spacing: 0;
+            line-height: 17px;
+            margin-bottom: 4px;
+          }
+          .horoscopePSubTitle {
+            font-family: var(--figtree);
+            font-size: 1.2em;
+            font-weight: 400;
+            color: var(--color-2);
+            letter-spacing: 0;
+            line-height: 14px;
+          }
+        }
+        .logoPersonare {
+          display: flex;
+          align-items: center;
+          .logoPersonareP {
+            font-family: var(--figtree);
+            font-size: 1em;
+            font-weight: 400;
+            color: var(--color-2);
+            letter-spacing: 0;
+            line-height: 14px;
+            margin-right: 8px;
+          }
+        }
+      }
+
+      .horoscopeSigns {
+        display: flex;
+        align-items: center;
+        margin-top: 18px;
+        width: 320px;
+        overflow-y: auto;
+        .taurus,
+        .gemini,
+        .cancer,
+        .leo,
+        .sagittarius,
+        .virgo,
+        .libra,
+        .scorpio,
+        .capricorn,
+        .aquario,
+        .pisces,
+        .aries {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          margin: 0px 14px 20px 0px;
+          cursor: pointer;
+          height: 64px;
+          .horoscopeSign {
+            width: 44px;
+            height: 44px;
+            border: none;
+            border-radius: 10px;
+            background-color: var(--color-19);
+            margin-bottom: 6px;
+            cursor: pointer;
+            .SvgHoroscope {
+              fill: var(--color-6);
+            }
+          }
+          .pSign {
+            font-family: var(--figtree);
+            font-size: 1.2em;
+            font-weight: 500;
+            color: var(--color-6);
+            letter-spacing: 0;
+            line-height: 14px;
+          }
+        }
+        .aries:hover,
+        .taurus:hover,
+        .gemini:hover,
+        .cancer:hover,
+        .leo:hover,
+        .sagittarius:hover,
+        .virgo:hover,
+        .libra:hover,
+        .scorpio:hover,
+        .capricorn:hover,
+        .aquario:hover,
+        .pisces:hover {
+          .horoscopeSign {
+            background-color: var(--color-2);
+            .SvgHoroscope {
+              fill: var(--color-1);
+            }
+          }
+          .pSign {
+            font-weight: 700;
+            letter-spacing: 0;
+            line-height: 14px;
+            color: var(--color-6);
+          }
+        }
+      }
+      .horoscopeSigns::-webkit-scrollbar {
+        display: none;
+      }
+      .horoscopeDegrade {
+        width: 74px;
+        height: 66px;
+        background-image: linear-gradient(
+          to right,
+          var(--color-16),
+          var(--color-1)
+        );
+        position: absolute;
+        right: 0;
+        top: 72px;
+      }
+      .sobreHoroscope {
+        font-family: var(--figtree);
+        font-size: 1.4em;
+        font-weight: 400;
+        color: var(--color-2);
+        letter-spacing: 0;
+        line-height: 18px;
+      }
+    }
+  }
+}
+.loadMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 156px;
+  height: 36px;
+  border-radius: 10px;
+  background-color: var(--color-4);
+  border: none;
+  margin: 0 auto 140px auto;
+  font-family: var(--figtree);
+  font-size: 1.4em;
+  font-weight: 700;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 17px;
+  .vsgMore {
+    margin-right: 10px;
+  }
+}
