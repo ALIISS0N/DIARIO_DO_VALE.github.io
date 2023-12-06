@@ -173,9 +173,7 @@ h3 {
   background-color: transparent;
   cursor: pointer;
 }
-
 /* MAIN */
-
 .containerMain {
   width: 375px;
   margin-top: -10px;
@@ -187,7 +185,6 @@ h3 {
 .mainCo {
   margin: 0 15px;
 }
-
 .secondaryHeadlineMenu {
   display: flex;
   align-items: center;
@@ -204,7 +201,6 @@ h3 {
   line-height: 14px;
   margin-right: 20px;
 }
-
 .salvar {
   display: flex;
   align-items: center;
