@@ -74,7 +74,7 @@ body {
   --color-14: #c3bfbd;
   --color-15: #cfcfcf;
   --color-16: #ffffff00;
-  --color-17: #32c52c;
+  --color-17: #1b6515;
   --color-18: #d53636;
   --color-19: #eeeeee;
   --color-20: #343434;
@@ -86,6 +86,7 @@ body {
   --color-26: #0000001a;
   --color-27: #76d3e3;
   --color-28: #e1e1e1;
+  --color-29: #a60d0d;
 }
 
 /* GERAL */
@@ -108,11 +109,6 @@ h3 {
   letter-spacing: 0;
   line-height: 20px;
 }
-h4 {
-}
-p {
-}
-
 /* GERAL CLASS */
 .timeInformation {
   font-family: var(--figtree);
@@ -1126,7 +1122,7 @@ p {
           font-size: 1.2em;
           font-weight: 700;
           color: var(--color-1);
-          background-color: var(--color-24);
+          background-color: var(--color-29);
           border-radius: 10px;
           letter-spacing: 0;
           line-height: 14px;
