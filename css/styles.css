@@ -688,7 +688,8 @@ h3 {
   z-index: 1;
 }
 .mockup {
-  margin-top: -25px;
+  margin-top: 20px;
+  rotate: -7deg;
 }
 .classiBlur {
   width: 345px;
