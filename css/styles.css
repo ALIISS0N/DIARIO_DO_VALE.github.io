@@ -687,10 +687,6 @@ h3 {
   bottom: 0px;
   z-index: 1;
 }
-.mockup {
-  margin-top: 20px;
-  rotate: -7deg;
-}
 .classiBlur {
   width: 345px;
   height: 85px;
@@ -1703,30 +1699,50 @@ h3 {
   letter-spacing: 0;
   line-height: 14px;
 }
-.aries:hover,
-.taurus:hover,
-.gemini:hover,
-.cancer:hover,
-.leo:hover,
-.sagittarius:hover,
-.virgo:hover,
-.libra:hover,
-.scorpio:hover,
-.capricorn:hover,
-.aquario:hover,
-.pisces:hover {
-  .horoscopeSign {
-    background-color: var(--color-2);
-    .SvgHoroscope {
-      fill: var(--color-1);
-    }
-  }
-  .pSign {
-    font-weight: 700;
-    letter-spacing: 0;
-    line-height: 14px;
-    color: var(--color-6);
-  }
+.aries:hover .horoscopeSign .SvgHoroscope,
+.taurus:hover .horoscopeSign .SvgHoroscope,
+.gemini:hover .horoscopeSign .SvgHoroscope,
+.cancer:hover .horoscopeSign .SvgHoroscope,
+.leo:hover .horoscopeSign .SvgHoroscope,
+.sagittarius:hover .horoscopeSign .SvgHoroscope,
+.virgo:hover .horoscopeSign .SvgHoroscope,
+.libra:hover .horoscopeSign .SvgHoroscope,
+.scorpio:hover .horoscopeSign .SvgHoroscope,
+.capricorn:hover .horoscopeSign .SvgHoroscope,
+.aquario:hover .horoscopeSign .SvgHoroscope,
+.pisces:hover .horoscopeSign .SvgHoroscope {
+  fill: var(--color-1);
+}
+.aries:hover .pSign,
+.taurus:hover .pSign,
+.gemini:hover .pSign,
+.cancer:hover .pSign,
+.leo:hover .pSign,
+.sagittarius:hover .pSign,
+.virgo:hover .pSign,
+.libra:hover .pSign,
+.scorpio:hover .pSign,
+.capricorn:hover .pSign,
+.aquario:hover .pSign,
+.pisces:hover .pSign {
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 14px;
+  color: var(--color-6);
+}
+.aries:hover .horoscopeSign,
+.taurus:hover .horoscopeSign,
+.gemini:hover .horoscopeSign,
+.cancer:hover .horoscopeSign,
+.leo:hover .horoscopeSign,
+.sagittarius:hover .horoscopeSign,
+.virgo:hover .horoscopeSign,
+.libra:hover .horoscopeSign,
+.scorpio:hover .horoscopeSign,
+.capricorn:hover .horoscopeSign,
+.aquario:hover .horoscopeSign,
+.pisces:hover .horoscopeSign {
+  background-color: var(--color-2);
 }
 .horoscopeSigns::-webkit-scrollbar {
   display: none;
