@@ -36,7 +36,6 @@
   font-weight: 800;
   font-display: swap;
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -45,7 +44,6 @@
 html {
   font-size: 62.5%;
 }
-
 body {
   display: flex;
   align-items: center;
@@ -55,7 +53,6 @@ body {
   height: 100%;
   background-color: var(--color-15);
 }
-
 :root {
   --figtree: "Figtree", sans-serif;
   --color-1: #ffffff;
@@ -88,9 +85,7 @@ body {
   --color-28: #e1e1e1;
   --color-29: #a60d0d;
 }
-
 /* GERAL */
-
 h2 {
   font-family: var(--figtree);
   font-size: 2.4em;
@@ -119,7 +114,6 @@ h3 {
   line-height: 14px;
   margin-bottom: 18px;
 }
-
 .titleNewsP {
   margin: 0;
   font-family: var(--figtree);
@@ -129,7 +123,6 @@ h3 {
   letter-spacing: 0;
   line-height: 38px;
 }
-
 /* PAGE CONTAINER */
 .pageContainer {
   width: 375px;
@@ -207,7 +200,6 @@ h3 {
 .salvar > svg {
   margin-right: 10px;
 }
-
 .comentar {
   display: flex;
   align-items: center;
@@ -215,7 +207,6 @@ h3 {
 .comentar > svg {
   margin-right: 10px;
 }
-
 .compartilhar {
   display: flex;
   align-items: center;
@@ -223,7 +214,6 @@ h3 {
 .compartilhar > svg {
   margin-right: 10px;
 }
-
 .queroParticipar {
   display: flex;
   align-items: center;
@@ -231,7 +221,6 @@ h3 {
 .queroParticipar > svg {
   margin-right: 10px;
 }
-
 /* PLUS NEWS */
 .plusNews {
   position: relative;
@@ -251,7 +240,6 @@ h3 {
 .plusC3 .timeInformation {
   margin: 8px 0px 12px 14px;
 }
-
 .plusBorder {
   position: absolute;
   border: none;
@@ -270,7 +258,6 @@ h3 {
 .plusCoComentar {
   margin-right: 14px;
 }
-
 /* BARRA FIX /BARFIX */
 .barFix {
   position: fixed;
@@ -414,7 +401,7 @@ h3 {
 .local > svg {
   margin-right: 8px;
 }
-.proxProm {
+.oPromocoes .proxProm {
   display: flex;
   margin: 25px auto;
   height: 16px;
@@ -422,7 +409,7 @@ h3 {
   justify-content: center;
   align-items: center;
 }
-.proxProm .btnProx {
+.oPromocoes .proxProm .btnProx {
   width: 10px;
   height: 10px;
   border: 2px solid var(--color-14);
@@ -432,13 +419,12 @@ h3 {
   background-color: var(--color-1);
   margin-right: 8px;
 }
-.proxProm .btnProx:hover {
+.oPromocoes .proxProm .btnProx:hover {
   width: 16px;
   height: 16px;
   background-color: var(--color-4);
   border: none;
 }
-
 .checkOut {
   position: relative;
   width: 345px;
@@ -490,7 +476,6 @@ h3 {
   );
   padding: 18px 0px 0px 18px;
 }
-
 .sun {
   position: absolute;
   top: 0;
@@ -594,7 +579,7 @@ h3 {
   z-index: 1;
 }
 .todayTitle {
-  margin-left: 35px;
+  margin-left: 25px;
   margin-bottom: 8px;
   font-family: var(--figtree);
   font-size: 2.4em;
@@ -605,7 +590,7 @@ h3 {
 }
 .todayTime {
   margin-bottom: 20px;
-  margin-left: 35px;
+  margin-left: 25px;
   font-family: var(--figtree);
   font-size: 1.6em;
   font-weight: 500;
@@ -616,6 +601,7 @@ h3 {
 .btnSignIt {
   position: absolute;
   bottom: 0;
+  left: 5px;
   border: 1px solid var(--color-4);
   border-radius: 10px;
   background-color: transparent;
@@ -629,8 +615,7 @@ h3 {
   font-weight: bold;
   color: var(--color-2);
   letter-spacing: 0;
-  line-height: 16px;
-  margin-right: 17px;
+  line-height: 17px;
 }
 .edcaoDigitalImg {
   border-radius: 6px;
@@ -773,7 +758,6 @@ h3 {
   line-height: 26px;
   margin-bottom: 15px;
 }
-
 .socialMediaC {
   display: flex;
   height: 70px;
@@ -839,12 +823,15 @@ h3 {
 }
 .callsCoText {
   margin-left: 15px;
+  position: relative;
 }
-.timeInformation {
+.callsCoText .timeInformation {
   margin: 8px 0px 12px 0px;
 }
 .callsC1Menu {
   display: flex;
+  position: absolute;
+  bottom: 0;
 }
 .callsCoSalvar {
   margin-right: 14px;
@@ -858,41 +845,11 @@ h3 {
   height: 110px;
   margin-bottom: 32px;
 }
-.callsCoText {
-  margin-left: 15px;
-}
-.timeInformation {
-  margin: 8px 0px 12px 0px;
-}
-.callsC1Menu {
-  display: flex;
-}
-.callsCoSalvar {
-  margin-right: 14px;
-}
-.callsCoComentar {
-  margin-right: 14px;
-}
 .standardCalls13 {
   display: flex;
   width: 345px;
   height: 110px;
   margin-bottom: 32px;
-}
-.callsCoText {
-  margin-left: 15px;
-}
-.timeInformation {
-  margin: 8px 0px 12px 0px;
-}
-.callsC1Menu {
-  display: flex;
-}
-.callsCoSalvar {
-  margin-right: 14px;
-}
-.callsCoComentar {
-  margin-right: 14px;
 }
 /* STORIES */
 .stories {
@@ -901,12 +858,12 @@ h3 {
   margin-bottom: 32px;
   position: relative;
 }
-.storiesTitle {
+.stories .storiesTitle {
   display: flex;
   align-items: center;
   margin: 0px 15px 13px 15px;
 }
-.titleNewsP {
+.storiesTitle .titleNewsP {
   margin: 0;
   font-family: var(--figtree);
   font-size: 3.2em;
@@ -966,6 +923,9 @@ h3 {
 .pTopic {
   display: flex;
   align-items: center;
+}
+.pTopic > svg {
+  margin-bottom: 10px;
 }
 .titleNewsP {
   margin: 0px 10px 10px 0px;
@@ -1087,11 +1047,393 @@ h3 {
 }
 .podcastsOtherCoText {
   margin-left: 15px;
+  position: relative;
+}
+.podcastsOther1 .podcastsOtherCoText .timeInformation {
+  margin-top: 6px;
+}
+.podcastsOtherCoText .podcastsTime {
+  background-color: var(--color-4);
+  width: max-content;
+  border-radius: 10px;
+  padding: 3px 9px;
+  font-family: var(--figtree);
+  font-size: 1.2em;
+  font-weight: 700;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+}
+.podcastsPlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-2);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 26.5px;
+  left: 41px;
+  padding-left: 3px;
+}
+.podcastsOther .podcastsOther2 {
+  position: relative;
+  display: flex;
+  width: 345px;
+  height: 100px;
+  margin-bottom: 13px;
+}
+.podcastsOtherCoText {
+  margin-left: 15px;
 }
 .timeInformation {
   margin-top: 6px;
 }
+.podcastsTime {
+  background-color: var(--color-4);
+  width: max-content;
+  border-radius: 10px;
+  padding: 3px 9px;
+  font-family: var(--figtree);
+  font-size: 1.2em;
+  font-weight: 700;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  bottom: 3px;
+}
+.podcastsPlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-2);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 26.5px;
+  left: 41px;
+  padding-left: 3px;
+}
+.podcastsOther .podcastsOther3 {
+  position: relative;
+  display: flex;
+  width: 345px;
+  height: 100px;
+}
+.podcastsOtherCoText {
+  margin-left: 15px;
+}
+.timeInformation {
+  margin-top: 6px;
+}
+.podcastsTime {
+  background-color: var(--color-4);
+  width: max-content;
+  border-radius: 10px;
+  padding: 3px 9px;
+  font-family: var(--figtree);
+  font-size: 1.2em;
+  font-weight: 700;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  bottom: 3px;
+}
+.podcastsPlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-2);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 26.5px;
+  left: 41px;
+  padding-left: 3px;
+}
+/* LOTERIES */
+.lotteries {
+  width: 345px;
+  height: 248px;
+  margin: 0px 15px 32px 15px;
+  padding: 20px;
+  box-shadow: 0px 15px 20px var(--color-5);
+  border-radius: 10px;
+}
+.lotteriesCoText .lotteriesTitle {
+  font-family: var(--figtree);
+  font-size: 1.4em;
+  font-weight: 700;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 17px;
+}
+.lotteriesCoText .lotteriesSelect {
+  font-family: var(--figtree);
+  font-size: 1.2em;
+  font-weight: 400;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 17px;
+}
+.lotteriesCoContest {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 0px;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+.contestC1,
+.contestC2,
+.contestC3,
+.contestC4,
+.contestC5,
+.contestC6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contestC1 .lotteriesCoSvg,
+.contestC2 .lotteriesCoSvg,
+.contestC3 .lotteriesCoSvg,
+.contestC4 .lotteriesCoSvg,
+.contestC5 .lotteriesCoSvg,
+.contestC6 .lotteriesCoSvg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--color-28);
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.contestC1,
+.contestC2,
+.contestC3,
+.contestC4,
+.contestC5,
+.contestC6 .contestText .contestTextTitle {
+  margin: 0;
+  font-family: var(--figtree);
+  font-size: 1em;
+  font-weight: 700;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 14px;
+}
+.contestC1,
+.contestC2,
+.contestC3,
+.contestC4,
+.contestC5,
+.contestC6 .contestText .timeLotteries {
+  margin: 0;
+  font-family: var(--figtree);
+  font-size: 1em;
+  font-weight: 400;
+  color: var(--color-3);
+  letter-spacing: -0.1px;
+  line-height: 14px;
+}
+/* CAMBIO */
+.exchange {
+  margin: 0px 15px 32px 15px;
+  padding: 20px;
+  width: 345px;
+  height: 142px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 20px var(--color-5);
+}
+.exchangeTitle {
+  margin-bottom: 32px;
+}
+.exchangeT {
+  font-family: var(--figtree);
+  font-size: 1.4em;
+  font-weight: 700;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 17px;
+  margin-bottom: 4px;
+}
+.exchangeTeTime {
+  font-family: var(--figtree);
+  font-size: 1.2em;
+  font-weight: 400;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 14px;
+}
+.exchangeCoValues {
+  display: flex;
+  justify-content: space-between;
+}
+.exchangeCoValuesDolar .valueMo {
+  font-family: var(--figtree);
+  font-size: 1.4em;
+  font-weight: 700;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 8px;
+  margin-bottom: 8px;
+}
+.exchangeCoValuesDolar .exchangeValueQuote {
+  display: flex;
+}
+.exchangeCoValuesDolar .exchangeVa {
+  font-family: var(--figtree);
+  font-size: 1.2em;
+  font-weight: 300;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-right: 8px;
+}
+.exchangeCoValuesDolar .span {
+  padding: 2px 6px;
+  border-radius: 10px;
+  background-color: var(--color-17);
+  font-family: var(--figtree);
+  font-size: 1em;
+  font-weight: 700;
+  color: var(--color-1);
+  letter-spacing: 0;
+  line-height: 13px;
+  text-transform: lowercase;
+}
+.exchangeCoValuesEuro .valueMo {
+  font-family: var(--figtree);
+  font-size: 1.4em;
+  font-weight: 700;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 8px;
+  margin-bottom: 8px;
+}
+.exchangeCoValuesEuro .exchangeValueQuote {
+  display: flex;
+}
+.exchangeVa {
+  font-family: var(--figtree);
+  font-size: 1.2em;
+  font-weight: 300;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-right: 8px;
+}
+.span {
+  padding: 2px 6px;
+  border-radius: 10px;
+  background-color: var(--color-18);
+  font-family: var(--figtree);
+  font-size: 1em;
+  font-weight: 700;
+  color: var(--color-1);
+  letter-spacing: 0;
+  line-height: 13px;
+  text-transform: lowercase;
+}
+.exchangeCoValuesBitcoin .valueMo {
+  font-family: var(--figtree);
+  font-size: 1.4em;
+  font-weight: 700;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 8px;
+  margin-bottom: 8px;
+}
+.exchangeCoValuesBitcoin .exchangeValueQuote {
+  display: flex;
+}
 
+/* VIDEOS */
+.videos {
+  margin: 0px 15px 29px 15px;
+}
+.videosLive {
+  width: 345px;
+  height: 243px;
+  background-color: var(--color-4);
+  border-radius: 10px;
+  position: relative;
+}
+.videosLiveCoTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.videosTitle {
+  display: flex;
+  align-items: center;
+  margin-left: 17px;
+}
+.proPodVid {
+  margin-left: 12px;
+  font-family: var(--figtree);
+  font-size: 2.2em;
+  font-weight: 700;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 28px;
+}
+.videosLive .podcastsPlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-2);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 124px;
+  left: 151px;
+  padding-left: 3px;
+}
+.podcastsTime {
+  background-color: var(--color-4);
+  width: max-content;
+  border-radius: 10px;
+  padding: 3px 9px;
+  font-family: var(--figtree);
+  font-size: 1.2em;
+  font-weight: 700;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  bottom: 7px;
+  left: 9px;
+}
+.podcastsTextTitle {
+  margin-top: 12px;
+}
+.podcastsTextTitle .timeInformation {
+  margin: 6px 0px 24px 0px;
+}
+.podcastsOther .podcastsOther1 {
+  position: relative;
+  display: flex;
+  width: 345px;
+  height: 100px;
+  margin-bottom: 13px;
+}
+.podcastsOtherCoText {
+  margin-left: 15px;
+}
+.timeInformation {
+  margin-top: 6px;
+}
 .podcastsTime {
   background-color: var(--color-4);
   width: max-content;
@@ -1198,791 +1540,211 @@ h3 {
   left: 41px;
   padding-left: 3px;
 }
-/* LOTERIES */
-.lotteries {
-  width: 345px;
-  height: 248px;
-  margin: 0px 15px 32px 15px;
-  padding: 20px;
-  box-shadow: 0px 15px 20px var(--color-5);
-  border-radius: 10px;
-
-  .lotteriesCoText {
-    .lotteriesTitle {
-      font-family: var(--figtree);
-      font-size: 1.4em;
-      font-weight: 700;
-      color: var(--color-2);
-      letter-spacing: 0;
-      line-height: 17px;
-    }
-    .lotteriesSelect {
-      font-family: var(--figtree);
-      font-size: 1.2em;
-      font-weight: 400;
-      color: var(--color-2);
-      letter-spacing: 0;
-      line-height: 17px;
-    }
-  }
-  .lotteriesCoContest {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 10px;
-    column-gap: 0px;
-    margin-top: 20px;
-    margin-left: -20px;
-
-    .contestC1 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      .lotteriesCoSvg {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 44px;
-        height: 44px;
-        border: 1px solid var(--color-28);
-        border-radius: 50%;
-        margin-right: 10px;
-      }
-      .contestText {
-        .contestTextTitle {
-          margin: 0;
-          font-family: var(--figtree);
-          font-size: 1em;
-          font-weight: 700;
-          color: var(--color-2);
-          letter-spacing: 0;
-          line-height: 14px;
-        }
-        .timeLotteries {
-          margin: 0;
-          font-family: var(--figtree);
-          font-size: 1em;
-          font-weight: 400;
-          color: var(--color-3);
-          letter-spacing: -0.1px;
-          line-height: 14px;
-        }
-      }
-    }
-    .contestC2 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      .lotteriesCoSvg {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 44px;
-        height: 44px;
-        border: 1px solid var(--color-28);
-        border-radius: 50%;
-        margin-right: 10px;
-      }
-      .contestText {
-        .contestTextTitle {
-          margin: 0;
-          font-family: var(--figtree);
-          font-size: 1em;
-          font-weight: 700;
-          color: var(--color-2);
-          letter-spacing: 0;
-          line-height: 14px;
-        }
-        .timeLotteries {
-          margin: 0;
-          font-family: var(--figtree);
-          font-size: 1em;
-          font-weight: 400;
-          color: var(--color-3);
-          letter-spacing: -0.1px;
-          line-height: 14px;
-        }
-      }
-    }
-    .contestC3 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      .lotteriesCoSvg {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 44px;
-        height: 44px;
-        border: 1px solid var(--color-28);
-        border-radius: 50%;
-        margin-right: 10px;
-      }
-      .contestText {
-        .contestTextTitle {
-          margin: 0;
-          font-family: var(--figtree);
-          font-size: 1em;
-          font-weight: 700;
-          color: var(--color-2);
-          letter-spacing: 0;
-          line-height: 14px;
-        }
-        .timeLotteries {
-          margin: 0;
-          font-family: var(--figtree);
-          font-size: 1em;
-          font-weight: 400;
-          color: var(--color-3);
-          letter-spacing: -0.1px;
-          line-height: 14px;
-        }
-      }
-    }
-    .contestC4 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      .lotteriesCoSvg {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 44px;
-        height: 44px;
-        border: 1px solid var(--color-28);
-        border-radius: 50%;
-        margin-right: 10px;
-      }
-      .contestText {
-        .contestTextTitle {
-          margin: 0;
-          font-family: var(--figtree);
-          font-size: 1em;
-          font-weight: 700;
-          color: var(--color-2);
-          letter-spacing: 0;
-          line-height: 14px;
-        }
-        .timeLotteries {
-          margin: 0;
-          font-family: var(--figtree);
-          font-size: 1em;
-          font-weight: 400;
-          color: var(--color-3);
-          letter-spacing: -0.1px;
-          line-height: 14px;
-        }
-      }
-    }
-    .contestC5 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      .lotteriesCoSvg {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 44px;
-        height: 44px;
-        border: 1px solid var(--color-28);
-        border-radius: 50%;
-        margin-right: 10px;
-      }
-      .contestText {
-        .contestTextTitle {
-          margin: 0;
-          font-family: var(--figtree);
-          font-size: 1em;
-          font-weight: 700;
-          color: var(--color-2);
-          letter-spacing: 0;
-          line-height: 14px;
-        }
-        .timeLotteries {
-          margin: 0;
-          font-family: var(--figtree);
-          font-size: 1em;
-          font-weight: 400;
-          color: var(--color-3);
-          letter-spacing: -0.1px;
-          line-height: 14px;
-        }
-      }
-    }
-    .contestC6 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      .lotteriesCoSvg {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 44px;
-        height: 44px;
-        border: 1px solid var(--color-28);
-        border-radius: 50%;
-        margin-right: 10px;
-      }
-      .contestText {
-        .contestTextTitle {
-          margin: 0;
-          font-family: var(--figtree);
-          font-size: 1em;
-          font-weight: 700;
-          color: var(--color-2);
-          letter-spacing: 0;
-          line-height: 14px;
-        }
-        .timeLotteries {
-          margin: 0;
-          font-family: var(--figtree);
-          font-size: 1em;
-          font-weight: 400;
-          color: var(--color-3);
-          letter-spacing: -0.1px;
-          line-height: 14px;
-        }
-      }
-    }
-  }
-}
-/* CAMBIO */
-.exchange {
-  margin: 0px 15px 32px 15px;
-  padding: 20px;
-  width: 345px;
-  height: 142px;
-  border-radius: 10px;
-  box-shadow: 0px 15px 20px var(--color-5);
-  .exchangeTitle {
-    margin-bottom: 32px;
-    .exchangeT {
-      font-family: var(--figtree);
-      font-size: 1.4em;
-      font-weight: 700;
-      color: var(--color-2);
-      letter-spacing: 0;
-      line-height: 17px;
-      margin-bottom: 4px;
-    }
-    .exchangeTeTime {
-      font-family: var(--figtree);
-      font-size: 1.2em;
-      font-weight: 400;
-      color: var(--color-2);
-      letter-spacing: 0;
-      line-height: 14px;
-    }
-  }
-  .exchangeCoValues {
-    display: flex;
-    justify-content: space-between;
-
-    .exchangeCoValuesDolar {
-      .valueMo {
-        font-family: var(--figtree);
-        font-size: 1.4em;
-        font-weight: 700;
-        color: var(--color-2);
-        letter-spacing: 0;
-        line-height: 8px;
-        margin-bottom: 8px;
-      }
-      .exchangeValueQuote {
-        display: flex;
-        .exchangeVa {
-          font-family: var(--figtree);
-          font-size: 1.2em;
-          font-weight: 300;
-          color: var(--color-2);
-          letter-spacing: 0;
-          line-height: 18px;
-          margin-right: 8px;
-        }
-        .span {
-          padding: 2px 6px;
-          border-radius: 10px;
-          background-color: var(--color-17);
-          font-family: var(--figtree);
-          font-size: 1em;
-          font-weight: 700;
-          color: var(--color-1);
-          letter-spacing: 0;
-          line-height: 13px;
-          text-transform: lowercase;
-        }
-      }
-    }
-    .exchangeCoValuesEuro {
-      .valueMo {
-        font-family: var(--figtree);
-        font-size: 1.4em;
-        font-weight: 700;
-        color: var(--color-2);
-        letter-spacing: 0;
-        line-height: 8px;
-        margin-bottom: 8px;
-      }
-      .exchangeValueQuote {
-        display: flex;
-        .exchangeVa {
-          font-family: var(--figtree);
-          font-size: 1.2em;
-          font-weight: 300;
-          color: var(--color-2);
-          letter-spacing: 0;
-          line-height: 18px;
-          margin-right: 8px;
-        }
-        .span {
-          padding: 2px 6px;
-          border-radius: 10px;
-          background-color: var(--color-18);
-          font-family: var(--figtree);
-          font-size: 1em;
-          font-weight: 700;
-          color: var(--color-1);
-          letter-spacing: 0;
-          line-height: 13px;
-          text-transform: lowercase;
-        }
-      }
-    }
-    .exchangeCoValuesBitcoin {
-      .valueMo {
-        font-family: var(--figtree);
-        font-size: 1.4em;
-        font-weight: 700;
-        color: var(--color-2);
-        letter-spacing: 0;
-        line-height: 8px;
-        margin-bottom: 8px;
-      }
-      .exchangeValueQuote {
-        display: flex;
-        .exchangeVa {
-          font-family: var(--figtree);
-          font-size: 1.2em;
-          font-weight: 300;
-          color: var(--color-2);
-          letter-spacing: 0;
-          line-height: 18px;
-          margin-right: 8px;
-        }
-        .span {
-          padding: 2px 6px;
-          border-radius: 10px;
-          background-color: var(--color-18);
-          font-family: var(--figtree);
-          font-size: 1em;
-          font-weight: 700;
-          color: var(--color-1);
-          letter-spacing: 0;
-          line-height: 13px;
-          text-transform: lowercase;
-        }
-      }
-    }
-  }
-}
-/* VIDEOS */
-.videos {
-  margin: 0px 15px 29px 15px;
-  .videosLive {
-    width: 345px;
-    height: 243px;
-    background-color: var(--color-4);
-    border-radius: 10px;
-    position: relative;
-    .videosLiveCoTitle {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      .videosTitle {
-        display: flex;
-        align-items: center;
-        margin-left: 17px;
-        .proPodVid {
-          margin-left: 12px;
-          font-family: var(--figtree);
-          font-size: 2.2em;
-          font-weight: 700;
-          color: var(--color-2);
-          letter-spacing: 0;
-          line-height: 28px;
-        }
-      }
-    }
-
-    .podcastsPlay {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: var(--color-2);
-      border-radius: 50%;
-      width: 44px;
-      height: 44px;
-      position: absolute;
-      top: 124px;
-      left: 151px;
-      padding-left: 3px;
-    }
-
-    .podcastsTime {
-      background-color: var(--color-4);
-      width: max-content;
-      border-radius: 10px;
-      padding: 3px 9px;
-      font-family: var(--figtree);
-      font-size: 1.2em;
-      font-weight: 700;
-      color: var(--color-2);
-      letter-spacing: 0;
-      line-height: 14px;
-      position: absolute;
-      bottom: 7px;
-      left: 9px;
-    }
-  }
-
-  .podcastsTextTitle {
-    margin-top: 12px;
-    .timeInformation {
-      margin: 6px 0px 24px 0px;
-    }
-  }
-
-  .podcastsOther {
-    .podcastsOther1 {
-      position: relative;
-      display: flex;
-      width: 345px;
-      height: 100px;
-      margin-bottom: 13px;
-
-      .podcastsOtherCoText {
-        margin-left: 15px;
-
-        .timeInformation {
-          margin-top: 6px;
-        }
-
-        .podcastsTime {
-          background-color: var(--color-4);
-          width: max-content;
-          border-radius: 10px;
-          padding: 3px 9px;
-          font-family: var(--figtree);
-          font-size: 1.2em;
-          font-weight: 700;
-          color: var(--color-2);
-          letter-spacing: 0;
-          line-height: 14px;
-          position: absolute;
-          bottom: 3px;
-        }
-      }
-      .podcastsPlay {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: var(--color-2);
-        border-radius: 50%;
-        width: 44px;
-        height: 44px;
-        position: absolute;
-        top: 26.5px;
-        left: 41px;
-        padding-left: 3px;
-      }
-    }
-    .podcastsOther2 {
-      position: relative;
-      display: flex;
-      width: 345px;
-      height: 100px;
-      margin-bottom: 13px;
-
-      .podcastsOtherCoText {
-        margin-left: 15px;
-
-        .timeInformation {
-          margin-top: 6px;
-        }
-
-        .podcastsTime {
-          background-color: var(--color-4);
-          width: max-content;
-          border-radius: 10px;
-          padding: 3px 9px;
-          font-family: var(--figtree);
-          font-size: 1.2em;
-          font-weight: 700;
-          color: var(--color-2);
-          letter-spacing: 0;
-          line-height: 14px;
-          position: absolute;
-          bottom: 3px;
-        }
-      }
-      .podcastsPlay {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: var(--color-2);
-        border-radius: 50%;
-        width: 44px;
-        height: 44px;
-        position: absolute;
-        top: 26.5px;
-        left: 41px;
-        padding-left: 3px;
-      }
-    }
-    .podcastsOther3 {
-      position: relative;
-      display: flex;
-      width: 345px;
-      height: 100px;
-
-      .podcastsOtherCoText {
-        margin-left: 15px;
-
-        .timeInformation {
-          margin-top: 6px;
-        }
-
-        .podcastsTime {
-          background-color: var(--color-4);
-          width: max-content;
-          border-radius: 10px;
-          padding: 3px 9px;
-          font-family: var(--figtree);
-          font-size: 1.2em;
-          font-weight: 700;
-          color: var(--color-2);
-          letter-spacing: 0;
-          line-height: 14px;
-          position: absolute;
-          bottom: 3px;
-        }
-      }
-      .podcastsPlay {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: var(--color-2);
-        border-radius: 50%;
-        width: 44px;
-        height: 44px;
-        position: absolute;
-        top: 26.5px;
-        left: 41px;
-        padding-left: 3px;
-      }
-    }
-  }
-}
-/* SIGNS */
+/* COLUNAS / SIGNS */
 .columnsHoroscope {
   margin: 0px 15px 32px 15px;
   width: 345px;
-  .columnsC {
-    .columnsCoTitle {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 12px;
-      .proxProm {
-        margin: 0;
-        margin-right: -8px;
-        padding: 0;
-      }
-    }
-    .columnsCoContent {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 32px;
-      .diaryTitle {
-        font-family: var(--figtree);
-        font-size: 1.8em;
-        font-weight: 600;
-        color: var(--color-2);
-        letter-spacing: 0;
-        line-height: 22px;
-      }
-      .columnsRockDiary {
-        .diaryP {
-          font-family: var(--figtree);
-          font-size: 1em;
-          font-weight: 400;
-          color: var(--color-2);
-          letter-spacing: 0;
-          line-height: 12px;
-        }
-      }
-      .columnsPetDiary {
-        .diaryTitle {
-          font-family: var(--figtree);
-          font-size: 1.8em;
-          font-weight: 600;
-          color: var(--color-2);
-          letter-spacing: 0;
-          line-height: 22px;
-        }
-        .diaryP {
-          font-family: var(--figtree);
-          font-size: 1em;
-          font-weight: 400;
-          color: var(--color-2);
-          letter-spacing: 0;
-          line-height: 12px;
-        }
-      }
-    }
-
-    .horoscopeCoContent {
-      padding: 20px;
-      box-shadow: 0px 15px 20px var(--color-5);
-      border-radius: 10px;
-      width: 345px;
-      height: 300px;
-      position: relative;
-      .horoscopeCoText {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        .horoscopeTitle {
-          .horoscopePTitle {
-            font-family: var(--figtree);
-            font-size: 1.4em;
-            font-weight: bold;
-            color: var(--color-2);
-            letter-spacing: 0;
-            line-height: 17px;
-            margin-bottom: 4px;
-          }
-          .horoscopePSubTitle {
-            font-family: var(--figtree);
-            font-size: 1.2em;
-            font-weight: 400;
-            color: var(--color-2);
-            letter-spacing: 0;
-            line-height: 14px;
-          }
-        }
-        .logoPersonare {
-          display: flex;
-          align-items: center;
-          .logoPersonareP {
-            font-family: var(--figtree);
-            font-size: 1em;
-            font-weight: 400;
-            color: var(--color-2);
-            letter-spacing: 0;
-            line-height: 14px;
-            margin-right: 8px;
-          }
-        }
-      }
-
-      .horoscopeSigns {
-        display: flex;
-        align-items: center;
-        margin-top: 18px;
-        width: 320px;
-        overflow-y: auto;
-        .taurus,
-        .gemini,
-        .cancer,
-        .leo,
-        .sagittarius,
-        .virgo,
-        .libra,
-        .scorpio,
-        .capricorn,
-        .aquario,
-        .pisces,
-        .aries {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          text-align: center;
-          margin: 0px 14px 20px 0px;
-          cursor: pointer;
-          height: 64px;
-          .horoscopeSign {
-            width: 44px;
-            height: 44px;
-            border: none;
-            border-radius: 10px;
-            background-color: var(--color-19);
-            margin-bottom: 6px;
-            cursor: pointer;
-            .SvgHoroscope {
-              fill: var(--color-6);
-            }
-          }
-          .pSign {
-            font-family: var(--figtree);
-            font-size: 1.2em;
-            font-weight: 500;
-            color: var(--color-6);
-            letter-spacing: 0;
-            line-height: 14px;
-          }
-        }
-        .aries:hover,
-        .taurus:hover,
-        .gemini:hover,
-        .cancer:hover,
-        .leo:hover,
-        .sagittarius:hover,
-        .virgo:hover,
-        .libra:hover,
-        .scorpio:hover,
-        .capricorn:hover,
-        .aquario:hover,
-        .pisces:hover {
-          .horoscopeSign {
-            background-color: var(--color-2);
-            .SvgHoroscope {
-              fill: var(--color-1);
-            }
-          }
-          .pSign {
-            font-weight: 700;
-            letter-spacing: 0;
-            line-height: 14px;
-            color: var(--color-6);
-          }
-        }
-      }
-      .horoscopeSigns::-webkit-scrollbar {
-        display: none;
-      }
-      .horoscopeDegrade {
-        width: 74px;
-        height: 66px;
-        background-image: linear-gradient(
-          to right,
-          var(--color-16),
-          var(--color-1)
-        );
-        position: absolute;
-        right: 0;
-        top: 72px;
-      }
-      .sobreHoroscope {
-        font-family: var(--figtree);
-        font-size: 1.4em;
-        font-weight: 400;
-        color: var(--color-2);
-        letter-spacing: 0;
-        line-height: 18px;
-      }
+}
+.columnsCoTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.columnsCoTitle .proxProm {
+  display: flex;
+  height: 16px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-right: -6px;
+}
+.columnsCoTitle .proxProm .btnProx {
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--color-14);
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--color-1);
+  margin-right: 8px;
+}
+.columnsCoTitle .proxProm .btnProx:hover {
+  width: 16px;
+  height: 16px;
+  background-color: var(--color-4);
+  border: none;
+}
+.columnsCoContent {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.diaryTitle {
+  font-family: var(--figtree);
+  font-size: 1.8em;
+  font-weight: 600;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 22px;
+}
+.columnsRockDiary .diaryP {
+  font-family: var(--figtree);
+  font-size: 1em;
+  font-weight: 400;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 12px;
+}
+.columnsPetDiary .diaryTitle {
+  font-family: var(--figtree);
+  font-size: 1.8em;
+  font-weight: 600;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 22px;
+}
+.columnsPetDiary .diaryP {
+  font-family: var(--figtree);
+  font-size: 1em;
+  font-weight: 400;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 12px;
+}
+.horoscopeCoContent {
+  padding: 20px;
+  box-shadow: 0px 15px 20px var(--color-5);
+  border-radius: 10px;
+  width: 345px;
+  height: 300px;
+  position: relative;
+}
+.horoscopeCoText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.horoscopeTitle .horoscopePTitle {
+  font-family: var(--figtree);
+  font-size: 1.4em;
+  font-weight: bold;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 17px;
+  margin-bottom: 4px;
+}
+.horoscopeTitle .horoscopePSubTitle {
+  font-family: var(--figtree);
+  font-size: 1.2em;
+  font-weight: 400;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 14px;
+}
+.logoPersonare {
+  display: flex;
+  align-items: center;
+}
+.logoPersonareP {
+  font-family: var(--figtree);
+  font-size: 1em;
+  font-weight: 400;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-right: 8px;
+}
+.horoscopeSigns {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  width: 320px;
+  overflow-y: auto;
+}
+.taurus,
+.gemini,
+.cancer,
+.leo,
+.sagittarius,
+.virgo,
+.libra,
+.scorpio,
+.capricorn,
+.aquario,
+.pisces,
+.aries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0px 14px 20px 0px;
+  cursor: pointer;
+  height: 64px;
+}
+.horoscopeSign {
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--color-19);
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+.SvgHoroscope {
+  fill: var(--color-6);
+}
+.pSign {
+  font-family: var(--figtree);
+  font-size: 1.2em;
+  font-weight: 500;
+  color: var(--color-6);
+  letter-spacing: 0;
+  line-height: 14px;
+}
+.aries:hover,
+.taurus:hover,
+.gemini:hover,
+.cancer:hover,
+.leo:hover,
+.sagittarius:hover,
+.virgo:hover,
+.libra:hover,
+.scorpio:hover,
+.capricorn:hover,
+.aquario:hover,
+.pisces:hover {
+  .horoscopeSign {
+    background-color: var(--color-2);
+    .SvgHoroscope {
+      fill: var(--color-1);
     }
   }
+  .pSign {
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 14px;
+    color: var(--color-6);
+  }
+}
+.horoscopeSigns::-webkit-scrollbar {
+  display: none;
+}
+.horoscopeDegrade {
+  width: 74px;
+  height: 66px;
+  background-image: linear-gradient(to right, var(--color-16), var(--color-1));
+  position: absolute;
+  right: 0;
+  top: 72px;
+}
+.sobreHoroscope {
+  font-family: var(--figtree);
+  font-size: 1.4em;
+  font-weight: 400;
+  color: var(--color-2);
+  letter-spacing: 0;
+  line-height: 18px;
 }
 .loadMore {
   display: flex;
